@@ -1,0 +1,4 @@
+# Add your project dependencies here
+openai
+langgraph
+dspy
