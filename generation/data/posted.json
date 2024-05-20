@@ -1,0 +1,1221 @@
+[
+    {
+        "assessment_obj": {
+            "component_grade_arr": [
+                {
+                    "1. Hook → Grab attention": true
+                },
+                {
+                    "2. Re-hook → Add curiosity": true
+                },
+                {
+                    "3. Lead → Why it's important": true
+                },
+                {
+                    "4. The rule of three → Powerful": true
+                },
+                {
+                    "5. Proof → Expertise adds a layer of trust. The technical how.": true
+                },
+                {
+                    "6. Body → The answer to your hook. Include reference to the source research title.": true
+                },
+                {
+                    "7. Listicles → Descending or ascending": false
+                },
+                {
+                    "8. Power-ending → Summary for impact": false
+                },
+                {
+                    "9. CTA/CTE → Invite your reader to engage": true
+                },
+                {
+                    "10. Hashtags → 3 relevant hashtags for SEO": false
+                }
+            ],
+            "engaging": true,
+            "factually_relevant": true,
+            "no_blacklist": true,
+            "no_emojis": true,
+            "no_signature": true,
+            "reference": true
+        },
+        "assessment_score": 0.9,
+        "content": "AI just got smarter with less. Here's how.\n\nInterested in AI minus the data feast? GDPL is the key.\n\nThink AI in healthcare had peaked? Meet GDPL.\n\nIntroducing a health platform that thrives on minimal data. Thanks to GDPL, this isn't just possible; it's happening.\n\nHere’s what it looks like:\n1. Connect dots between text and images;\n2. Start smart with just a few data points;\n3. Stay within privacy bounds, effortlessly;\n4. Scale up without weighing down on resources.\n\nSounds impossible? It's not with GDPL.\n\nImagine getting accurate health insights without data deluge. That's closer than you think.\n\nRight, who needs another data-hungry tool? Here's to making AI lean yet powerful.\n\nNow, think bigger—GDPL doesn’t just streamline; it overturns our data expectations.\n\nReactions? Ideas? Could lean data be the pivot we needed in tech?\n\nLet's chat.\n\n#LeanAI #HealthInnovation #GDPL",
+        "paper": {
+            "_raw": {
+                "arxiv_primary_category": {
+                    "scheme": "http://arxiv.org/schemas/atom",
+                    "term": "cs.CV"
+                },
+                "author": "Dongxiao Zhang",
+                "author_detail": {
+                    "name": "Dongxiao Zhang"
+                },
+                "authors": [
+                    {
+                        "name": "Qinglong Cao"
+                    },
+                    {
+                        "name": "Yuntian Chen"
+                    },
+                    {
+                        "name": "Lu Lu"
+                    },
+                    {
+                        "name": "Hao Sun"
+                    },
+                    {
+                        "name": "Zhenzhong Zeng"
+                    },
+                    {
+                        "name": "Xiaokang Yang"
+                    },
+                    {
+                        "name": "Dongxiao Zhang"
+                    }
+                ],
+                "guidislink": true,
+                "id": "http://arxiv.org/abs/2405.08668v1",
+                "link": "http://arxiv.org/abs/2405.08668v1",
+                "links": [
+                    {
+                        "href": "http://arxiv.org/abs/2405.08668v1",
+                        "rel": "alternate",
+                        "type": "text/html"
+                    },
+                    {
+                        "href": "http://arxiv.org/pdf/2405.08668v1",
+                        "rel": "related",
+                        "title": "pdf",
+                        "type": "application/pdf"
+                    }
+                ],
+                "published": "2024-05-14T14:51:12Z",
+                "published_parsed": [
+                    2024,
+                    5,
+                    14,
+                    14,
+                    51,
+                    12,
+                    1,
+                    135,
+                    0
+                ],
+                "summary": "Large-scale Vision-Language Models (VLMs) have demonstrated exceptional\nperformance in natural vision tasks, motivating researchers across domains to\nexplore domain-specific VLMs. However, the construction of powerful\ndomain-specific VLMs demands vast amounts of annotated data, substantial\nelectrical energy, and computing resources, primarily accessible to industry,\nyet hindering VLM research in academia. To address this challenge and foster\nsustainable and equitable VLM research, we present the Generalized Domain\nPrompt Learning (GDPL) framework. GDPL facilitates the transfer of VLMs' robust\nrecognition capabilities from natural vision to specialized domains, without\nthe need for extensive data or resources. By leveraging small-scale\ndomain-specific foundation models and minimal prompt samples, GDPL empowers the\nlanguage branch with domain knowledge through quaternion networks, uncovering\ncross-modal relationships between domain-specific vision features and natural\nvision-based contextual embeddings. Simultaneously, GDPL guides the vision\nbranch into specific domains through hierarchical propagation of generated\nvision prompt features, grounded in well-matched vision-language relations.\nFurthermore, to fully harness the domain adaptation potential of VLMs, we\nintroduce a novel low-rank adaptation approach. Extensive experiments across\ndiverse domains like remote sensing, medical imaging, geology, Synthetic\nAperture Radar, and fluid dynamics, validate the efficacy of GDPL,\ndemonstrating its ability to achieve state-of-the-art domain recognition\nperformance in a prompt learning paradigm. Our framework paves the way for\nsustainable and inclusive VLM research, transcending the barriers between\nacademia and industry.",
+                "summary_detail": {
+                    "base": "",
+                    "language": null,
+                    "type": "text/plain",
+                    "value": "Large-scale Vision-Language Models (VLMs) have demonstrated exceptional\nperformance in natural vision tasks, motivating researchers across domains to\nexplore domain-specific VLMs. However, the construction of powerful\ndomain-specific VLMs demands vast amounts of annotated data, substantial\nelectrical energy, and computing resources, primarily accessible to industry,\nyet hindering VLM research in academia. To address this challenge and foster\nsustainable and equitable VLM research, we present the Generalized Domain\nPrompt Learning (GDPL) framework. GDPL facilitates the transfer of VLMs' robust\nrecognition capabilities from natural vision to specialized domains, without\nthe need for extensive data or resources. By leveraging small-scale\ndomain-specific foundation models and minimal prompt samples, GDPL empowers the\nlanguage branch with domain knowledge through quaternion networks, uncovering\ncross-modal relationships between domain-specific vision features and natural\nvision-based contextual embeddings. Simultaneously, GDPL guides the vision\nbranch into specific domains through hierarchical propagation of generated\nvision prompt features, grounded in well-matched vision-language relations.\nFurthermore, to fully harness the domain adaptation potential of VLMs, we\nintroduce a novel low-rank adaptation approach. Extensive experiments across\ndiverse domains like remote sensing, medical imaging, geology, Synthetic\nAperture Radar, and fluid dynamics, validate the efficacy of GDPL,\ndemonstrating its ability to achieve state-of-the-art domain recognition\nperformance in a prompt learning paradigm. Our framework paves the way for\nsustainable and inclusive VLM research, transcending the barriers between\nacademia and industry."
+                },
+                "tags": [
+                    {
+                        "label": null,
+                        "scheme": "http://arxiv.org/schemas/atom",
+                        "term": "cs.CV"
+                    },
+                    {
+                        "label": null,
+                        "scheme": "http://arxiv.org/schemas/atom",
+                        "term": "cs.AI"
+                    },
+                    {
+                        "label": null,
+                        "scheme": "http://arxiv.org/schemas/atom",
+                        "term": "cs.LG"
+                    },
+                    {
+                        "label": null,
+                        "scheme": "http://arxiv.org/schemas/atom",
+                        "term": "stat.AP"
+                    }
+                ],
+                "title": "Promoting AI Equity in Science: Generalized Domain Prompt Learning for\n  Accessible VLM Research",
+                "title_detail": {
+                    "base": "",
+                    "language": null,
+                    "type": "text/plain",
+                    "value": "Promoting AI Equity in Science: Generalized Domain Prompt Learning for\n  Accessible VLM Research"
+                },
+                "updated": "2024-05-14T14:51:12Z",
+                "updated_parsed": [
+                    2024,
+                    5,
+                    14,
+                    14,
+                    51,
+                    12,
+                    1,
+                    135,
+                    0
+                ]
+            },
+            "authors": [
+                "Qinglong Cao",
+                "Yuntian Chen",
+                "Lu Lu",
+                "Hao Sun",
+                "Zhenzhong Zeng",
+                "Xiaokang Yang",
+                "Dongxiao Zhang"
+            ],
+            "categories": [
+                "cs.CV",
+                "cs.AI",
+                "cs.LG",
+                "stat.AP"
+            ],
+            "comment": null,
+            "doi": null,
+            "entry_id": "http://arxiv.org/abs/2405.08668v1",
+            "journal_ref": null,
+            "links": [
+                "http://arxiv.org/abs/2405.08668v1",
+                "http://arxiv.org/pdf/2405.08668v1"
+            ],
+            "pdf_url": "http://arxiv.org/pdf/2405.08668v1",
+            "primary_category": "cs.CV",
+            "published": "2024-05-14T14:51:12+00:00",
+            "summary": "Large-scale Vision-Language Models (VLMs) have demonstrated exceptional\nperformance in natural vision tasks, motivating researchers across domains to\nexplore domain-specific VLMs. However, the construction of powerful\ndomain-specific VLMs demands vast amounts of annotated data, substantial\nelectrical energy, and computing resources, primarily accessible to industry,\nyet hindering VLM research in academia. To address this challenge and foster\nsustainable and equitable VLM research, we present the Generalized Domain\nPrompt Learning (GDPL) framework. GDPL facilitates the transfer of VLMs' robust\nrecognition capabilities from natural vision to specialized domains, without\nthe need for extensive data or resources. By leveraging small-scale\ndomain-specific foundation models and minimal prompt samples, GDPL empowers the\nlanguage branch with domain knowledge through quaternion networks, uncovering\ncross-modal relationships between domain-specific vision features and natural\nvision-based contextual embeddings. Simultaneously, GDPL guides the vision\nbranch into specific domains through hierarchical propagation of generated\nvision prompt features, grounded in well-matched vision-language relations.\nFurthermore, to fully harness the domain adaptation potential of VLMs, we\nintroduce a novel low-rank adaptation approach. Extensive experiments across\ndiverse domains like remote sensing, medical imaging, geology, Synthetic\nAperture Radar, and fluid dynamics, validate the efficacy of GDPL,\ndemonstrating its ability to achieve state-of-the-art domain recognition\nperformance in a prompt learning paradigm. Our framework paves the way for\nsustainable and inclusive VLM research, transcending the barriers between\nacademia and industry.",
+            "title": "Promoting AI Equity in Science: Generalized Domain Prompt Learning for Accessible VLM Research",
+            "updated": "2024-05-14T14:51:12+00:00"
+        },
+        "share_urn": "urn:li:share:7196488762577534977",
+        "timestamp": "2024-05-15T22:35:08.733030"
+    },
+    {
+        "assessment_obj": {
+            "component_grade_arr": [
+                {
+                    "1. Hook → Grab attention": true
+                },
+                {
+                    "2. Re-hook → Add curiosity": true
+                },
+                {
+                    "3. Lead → Why it's important": true
+                },
+                {
+                    "4. The rule of three → Powerful": true
+                },
+                {
+                    "5. Proof → Expertise adds a layer of trust. The technical how.": true
+                },
+                {
+                    "6. Body → The answer to your hook. Include reference to the source research title.": false
+                },
+                {
+                    "7. Listicles → Descending or ascending": false
+                },
+                {
+                    "8. Power-ending → Summary for impact": true
+                },
+                {
+                    "9. CTA/CTE → Invite your reader to engage": true
+                },
+                {
+                    "10. Hashtags → 3 relevant hashtags for SEO": true
+                }
+            ],
+            "engaging": true,
+            "factually_relevant": false,
+            "no_blacklist": true,
+            "no_emojis": true,
+            "no_signature": true,
+            "reference": true
+        },
+        "assessment_score": 0.8666666666666667,
+        "content": "Navigating aviation regulations? Complexity's got nothing on us.\n\nEver faced down those daunting regs? We've found a fresh approach.\n\nWhy this matters: Innovation's gatekeeper is compliance.\n\nDiving deeper: 1. **AI Compliance Guide: Ignite startups.** 2. **Leverage the LLM-RAC breakthrough.** 3. **Demystify regs, empower your mission.**\n\n\"Towards Enhanced RAC Accessibility...\" has paved the way. Your flight plan to compliance is cleared.\n\nWhat's on board: - Direct, chat-based regulatory insights. - Updates and alerts keeping you airborne. - Custom checklists: your pre-flight check.\n\nLet's redefine flying in the tech era. But, consider the counterpoint... Complexity safeguards our skies.\n\nWelcome to the consultancy for the elites. Not simplifying, but mastering regs.\n\nCatering to the vanguards of aviation. A whole new market perspective.\n\nEach story, a different angle on compliance. Where do you see your startup?\n\nTime to contribute your voice.\n\n#RedefineFlying #TechInnovation #FutureOfCompliance",
+        "paper": {
+            "_raw": {
+                "arxiv_primary_category": {
+                    "scheme": "http://arxiv.org/schemas/atom",
+                    "term": "cs.LG"
+                },
+                "author": "Sergio Madrid Farfan",
+                "author_detail": {
+                    "name": "Sergio Madrid Farfan"
+                },
+                "authors": [
+                    {
+                        "name": "Edison Jair Bejarano Sepulveda"
+                    },
+                    {
+                        "name": "Nicolai Potes Hector"
+                    },
+                    {
+                        "name": "Santiago Pineda Montoya"
+                    },
+                    {
+                        "name": "Felipe Ivan Rodriguez"
+                    },
+                    {
+                        "name": "Jaime Enrique Orduy"
+                    },
+                    {
+                        "name": "Alec Rosales Cabezas"
+                    },
+                    {
+                        "name": "Danny Traslaviña Navarrete"
+                    },
+                    {
+                        "name": "Sergio Madrid Farfan"
+                    }
+                ],
+                "guidislink": true,
+                "id": "http://arxiv.org/abs/2405.08792v1",
+                "link": "http://arxiv.org/abs/2405.08792v1",
+                "links": [
+                    {
+                        "href": "http://arxiv.org/abs/2405.08792v1",
+                        "rel": "alternate",
+                        "type": "text/html"
+                    },
+                    {
+                        "href": "http://arxiv.org/pdf/2405.08792v1",
+                        "rel": "related",
+                        "title": "pdf",
+                        "type": "application/pdf"
+                    }
+                ],
+                "published": "2024-05-14T17:41:07Z",
+                "published_parsed": [
+                    2024,
+                    5,
+                    14,
+                    17,
+                    41,
+                    7,
+                    1,
+                    135,
+                    0
+                ],
+                "summary": "This paper explores the potential of large language models (LLMs) to make the\nAeronautical Regulations of Colombia (RAC) more accessible. Given the\ncomplexity and extensive technicality of the RAC, this study introduces a novel\napproach to simplifying these regulations for broader understanding. By\ndeveloping the first-ever RAC database, which contains 24,478 expertly labeled\nquestion-and-answer pairs, and fine-tuning LLMs specifically for RAC\napplications, the paper outlines the methodology for dataset assembly,\nexpert-led annotation, and model training. Utilizing the Gemma1.1 2b model\nalong with advanced techniques like Unsloth for efficient VRAM usage and flash\nattention mechanisms, the research aims to expedite training processes. This\ninitiative establishes a foundation to enhance the comprehensibility and\naccessibility of RAC, potentially benefiting novices and reducing dependence on\nexpert consultations for navigating the aviation industry's regulatory\nlandscape.\n  You can visit the dataset\n(https://huggingface.co/somosnlp/gemma-1.1-2b-it_ColombiaRAC_FullyCurated_format_chatML_V1)\nand the model\n(https://huggingface.co/datasets/somosnlp/ColombiaRAC_FullyCurated) here.",
+                "summary_detail": {
+                    "base": "",
+                    "language": null,
+                    "type": "text/plain",
+                    "value": "This paper explores the potential of large language models (LLMs) to make the\nAeronautical Regulations of Colombia (RAC) more accessible. Given the\ncomplexity and extensive technicality of the RAC, this study introduces a novel\napproach to simplifying these regulations for broader understanding. By\ndeveloping the first-ever RAC database, which contains 24,478 expertly labeled\nquestion-and-answer pairs, and fine-tuning LLMs specifically for RAC\napplications, the paper outlines the methodology for dataset assembly,\nexpert-led annotation, and model training. Utilizing the Gemma1.1 2b model\nalong with advanced techniques like Unsloth for efficient VRAM usage and flash\nattention mechanisms, the research aims to expedite training processes. This\ninitiative establishes a foundation to enhance the comprehensibility and\naccessibility of RAC, potentially benefiting novices and reducing dependence on\nexpert consultations for navigating the aviation industry's regulatory\nlandscape.\n  You can visit the dataset\n(https://huggingface.co/somosnlp/gemma-1.1-2b-it_ColombiaRAC_FullyCurated_format_chatML_V1)\nand the model\n(https://huggingface.co/datasets/somosnlp/ColombiaRAC_FullyCurated) here."
+                },
+                "tags": [
+                    {
+                        "label": null,
+                        "scheme": "http://arxiv.org/schemas/atom",
+                        "term": "cs.LG"
+                    },
+                    {
+                        "label": null,
+                        "scheme": "http://arxiv.org/schemas/atom",
+                        "term": "cs.AI"
+                    }
+                ],
+                "title": "Towards Enhanced RAC Accessibility: Leveraging Datasets and LLMs",
+                "title_detail": {
+                    "base": "",
+                    "language": null,
+                    "type": "text/plain",
+                    "value": "Towards Enhanced RAC Accessibility: Leveraging Datasets and LLMs"
+                },
+                "updated": "2024-05-14T17:41:07Z",
+                "updated_parsed": [
+                    2024,
+                    5,
+                    14,
+                    17,
+                    41,
+                    7,
+                    1,
+                    135,
+                    0
+                ]
+            },
+            "authors": [
+                "Edison Jair Bejarano Sepulveda",
+                "Nicolai Potes Hector",
+                "Santiago Pineda Montoya",
+                "Felipe Ivan Rodriguez",
+                "Jaime Enrique Orduy",
+                "Alec Rosales Cabezas",
+                "Danny Traslaviña Navarrete",
+                "Sergio Madrid Farfan"
+            ],
+            "categories": [
+                "cs.LG",
+                "cs.AI"
+            ],
+            "comment": null,
+            "doi": null,
+            "entry_id": "http://arxiv.org/abs/2405.08792v1",
+            "journal_ref": null,
+            "links": [
+                "http://arxiv.org/abs/2405.08792v1",
+                "http://arxiv.org/pdf/2405.08792v1"
+            ],
+            "pdf_url": "http://arxiv.org/pdf/2405.08792v1",
+            "primary_category": "cs.LG",
+            "published": "2024-05-14 17:41:07+00:00",
+            "summary": "This paper explores the potential of large language models (LLMs) to make the\nAeronautical Regulations of Colombia (RAC) more accessible. Given the\ncomplexity and extensive technicality of the RAC, this study introduces a novel\napproach to simplifying these regulations for broader understanding. By\ndeveloping the first-ever RAC database, which contains 24,478 expertly labeled\nquestion-and-answer pairs, and fine-tuning LLMs specifically for RAC\napplications, the paper outlines the methodology for dataset assembly,\nexpert-led annotation, and model training. Utilizing the Gemma1.1 2b model\nalong with advanced techniques like Unsloth for efficient VRAM usage and flash\nattention mechanisms, the research aims to expedite training processes. This\ninitiative establishes a foundation to enhance the comprehensibility and\naccessibility of RAC, potentially benefiting novices and reducing dependence on\nexpert consultations for navigating the aviation industry's regulatory\nlandscape.\n  You can visit the dataset\n(https://huggingface.co/somosnlp/gemma-1.1-2b-it_ColombiaRAC_FullyCurated_format_chatML_V1)\nand the model\n(https://huggingface.co/datasets/somosnlp/ColombiaRAC_FullyCurated) here.",
+            "title": "Towards Enhanced RAC Accessibility: Leveraging Datasets and LLMs",
+            "updated": "2024-05-14 17:41:07+00:00"
+        },
+        "share_urn": "urn:li:share:7196502644402573314",
+        "timestamp": "2024-05-15 23:28:20"
+    },
+    {
+        "assessment_obj": {
+            "component_grade_arr": [
+                {
+                    "1. Hook → Grab attention": true
+                },
+                {
+                    "2. Re-hook → Add curiosity": true
+                },
+                {
+                    "3. Lead → Why it's important": true
+                },
+                {
+                    "4. The rule of three → Powerful": false
+                },
+                {
+                    "5. Proof → Expertise adds a layer of trust. The technical how.": true
+                },
+                {
+                    "6. Body → The answer to your hook. Include reference to the source research title.": true
+                },
+                {
+                    "7. Listicles → Descending or ascending": false
+                },
+                {
+                    "8. Power-ending → Summary for impact": true
+                },
+                {
+                    "9. CTA/CTE → Invite your reader to engage": true
+                },
+                {
+                    "10. Hashtags → 3 relevant hashtags for SEO": true
+                }
+            ],
+            "engaging": true,
+            "factually_relevant": true,
+            "no_blacklist": true,
+            "no_emojis": false,
+            "no_signature": true,
+            "reference": false
+        },
+        "assessment_score": 0.7999999999999999,
+        "compressed_paper": "🧬Introducing \"Fairness Stamp (FAST)\": A breakthrough debiasing method for large language models (LLMs) offering individualized knowledge editing and calibration, enhancing fairness without sacrificing knowledge integrity.🧬",
+        "content": "🔍 **Fairness Stamp (FAST): A Revolution or Evolution in Hiring?**\n\nEver wonder if AI in hiring does more harm than good? Think again.\n\nIntroducing a new take on AI and fairness: **Editable Fairness**. Not just a concept but a reality with the Fairness Stamp (FAST) method.\n\nWhy should we care? Here's why:\n\n- **Ethical Recruitment**: It’s high time recruitment reflected the world's diversity accurately. The FAST method doesn't just adjust for biases; it understands and mitigates them according to our definitions of fairness today.\n  \n- **Precision in Hiring**: Gone are the days of one-size-fits-all fairness solutions. This is about customizing AI to your company’s unique diversity goals without compromising on talent quality.\n\n- **A Jump Ahead in Innovation**: By applying the FAST method, we're not just filling jobs. We're actively contributing to a more inclusive and equitable job market.\n\n**From Research to Reality**: Unlike vague claims of AI-driven fairness, the FAST method stems from rigorous research in bias mitigation. It provides an adaptable framework for debiasing AI, ensuring your talent acquisition process is both fair and effective.\n\n**How Do We Apply This?**\n\n- By setting **Editable Fairness** parameters, companies can directly influence how their AI interprets and acts on bias.\n  \n- Continuous feedback loops directly from recruitment outcomes ensure the AI's fairness remains relevant and effective over time.\n\n- A dashboard tracks and showcases the effectiveness of your debiasing efforts, demonstrating real progress in diversity and inclusion.\n\nThis isn't just another \"game changer\" in recruitment; it's an ethical imperative. **Editable Fairness** allows for direct and intentional control over the fairness of AI-driven recruitment processes, marking a significant leap from passive to active bias mitigation.\n\n**Why This Matters More Than Ever**\n\nIn a world brimming with technology and data, our ethical standards set us apart. By embracing **Editable Fairness**, we're not just making better hiring decisions; we're redefining the landscape of ethical AI use in recruitment.\n\nDebate is welcome: Is **Editable Fairness** the future we're looking for in AI-driven recruitment, or is there more to the story?\n\n#EthicalAI #FutureOfWork #InclusiveHiring",
+        "paper": {
+            "_raw": {
+                "arxiv_primary_category": {
+                    "scheme": "http://arxiv.org/schemas/atom",
+                    "term": "cs.CL"
+                },
+                "author": "Zuozhu Liu",
+                "author_detail": {
+                    "name": "Zuozhu Liu"
+                },
+                "authors": [
+                    {
+                        "name": "Ruizhe Chen"
+                    },
+                    {
+                        "name": "Yichen Li"
+                    },
+                    {
+                        "name": "Zikai Xiao"
+                    },
+                    {
+                        "name": "Zuozhu Liu"
+                    }
+                ],
+                "guidislink": true,
+                "id": "http://arxiv.org/abs/2405.09341v1",
+                "link": "http://arxiv.org/abs/2405.09341v1",
+                "links": [
+                    {
+                        "href": "http://arxiv.org/abs/2405.09341v1",
+                        "rel": "alternate",
+                        "type": "text/html"
+                    },
+                    {
+                        "href": "http://arxiv.org/pdf/2405.09341v1",
+                        "rel": "related",
+                        "title": "pdf",
+                        "type": "application/pdf"
+                    }
+                ],
+                "published": "2024-05-15T13:44:13Z",
+                "published_parsed": [
+                    2024,
+                    5,
+                    15,
+                    13,
+                    44,
+                    13,
+                    2,
+                    136,
+                    0
+                ],
+                "summary": "Existing debiasing methods inevitably make unreasonable or undesired\npredictions as they are designated and evaluated to achieve parity across\ndifferent social groups but leave aside individual facts, resulting in modified\nexisting knowledge. In this paper, we first establish a new bias mitigation\nbenchmark BiasKE leveraging existing and additional constructed datasets, which\nsystematically assesses debiasing performance by complementary metrics on\nfairness, specificity, and generalization. Meanwhile, we propose a novel\ndebiasing method, Fairness Stamp (FAST), which enables editable fairness\nthrough fine-grained calibration on individual biased knowledge. Comprehensive\nexperiments demonstrate that FAST surpasses state-of-the-art baselines with\nremarkable debiasing performance while not hampering overall model capability\nfor knowledge preservation, highlighting the prospect of fine-grained debiasing\nstrategies for editable fairness in LLMs.",
+                "summary_detail": {
+                    "base": "",
+                    "language": null,
+                    "type": "text/plain",
+                    "value": "Existing debiasing methods inevitably make unreasonable or undesired\npredictions as they are designated and evaluated to achieve parity across\ndifferent social groups but leave aside individual facts, resulting in modified\nexisting knowledge. In this paper, we first establish a new bias mitigation\nbenchmark BiasKE leveraging existing and additional constructed datasets, which\nsystematically assesses debiasing performance by complementary metrics on\nfairness, specificity, and generalization. Meanwhile, we propose a novel\ndebiasing method, Fairness Stamp (FAST), which enables editable fairness\nthrough fine-grained calibration on individual biased knowledge. Comprehensive\nexperiments demonstrate that FAST surpasses state-of-the-art baselines with\nremarkable debiasing performance while not hampering overall model capability\nfor knowledge preservation, highlighting the prospect of fine-grained debiasing\nstrategies for editable fairness in LLMs."
+                },
+                "tags": [
+                    {
+                        "label": null,
+                        "scheme": "http://arxiv.org/schemas/atom",
+                        "term": "cs.CL"
+                    },
+                    {
+                        "label": null,
+                        "scheme": "http://arxiv.org/schemas/atom",
+                        "term": "cs.AI"
+                    }
+                ],
+                "title": "Large Language Model Bias Mitigation from the Perspective of Knowledge\n  Editing",
+                "title_detail": {
+                    "base": "",
+                    "language": null,
+                    "type": "text/plain",
+                    "value": "Large Language Model Bias Mitigation from the Perspective of Knowledge\n  Editing"
+                },
+                "updated": "2024-05-15T13:44:13Z",
+                "updated_parsed": [
+                    2024,
+                    5,
+                    15,
+                    13,
+                    44,
+                    13,
+                    2,
+                    136,
+                    0
+                ]
+            },
+            "authors": [
+                "Ruizhe Chen",
+                "Yichen Li",
+                "Zikai Xiao",
+                "Zuozhu Liu"
+            ],
+            "categories": [
+                "cs.CL",
+                "cs.AI"
+            ],
+            "comment": null,
+            "doi": null,
+            "entry_id": "http://arxiv.org/abs/2405.09341v1",
+            "journal_ref": null,
+            "links": [
+                "http://arxiv.org/abs/2405.09341v1",
+                "http://arxiv.org/pdf/2405.09341v1"
+            ],
+            "pdf_url": "http://arxiv.org/pdf/2405.09341v1",
+            "primary_category": "cs.CL",
+            "published": "2024-05-15 13:44:13+00:00",
+            "summary": "Existing debiasing methods inevitably make unreasonable or undesired\npredictions as they are designated and evaluated to achieve parity across\ndifferent social groups but leave aside individual facts, resulting in modified\nexisting knowledge. In this paper, we first establish a new bias mitigation\nbenchmark BiasKE leveraging existing and additional constructed datasets, which\nsystematically assesses debiasing performance by complementary metrics on\nfairness, specificity, and generalization. Meanwhile, we propose a novel\ndebiasing method, Fairness Stamp (FAST), which enables editable fairness\nthrough fine-grained calibration on individual biased knowledge. Comprehensive\nexperiments demonstrate that FAST surpasses state-of-the-art baselines with\nremarkable debiasing performance while not hampering overall model capability\nfor knowledge preservation, highlighting the prospect of fine-grained debiasing\nstrategies for editable fairness in LLMs.",
+            "title": "Large Language Model Bias Mitigation from the Perspective of Knowledge Editing",
+            "updated": "2024-05-15 13:44:13+00:00"
+        },
+        "share_urn": "urn:li:share:7196709564900134914",
+        "timestamp": "2024-05-16 13:01:53"
+    },
+    {
+        "assessment_obj": {
+            "component_grade_arr": [
+                {
+                    "1. Hook → Grab attention": true
+                },
+                {
+                    "2. Re-hook → Add curiosity": true
+                },
+                {
+                    "3. Lead → Why it's important": true
+                },
+                {
+                    "4. The rule of three → Powerful": false
+                },
+                {
+                    "5. Proof → Expertise adds a layer of trust. The technical how.": true
+                },
+                {
+                    "6. Body → The answer to your hook. Include reference to the source research title.": true
+                },
+                {
+                    "7. Listicles → Descending or ascending": false
+                },
+                {
+                    "8. Power-ending → Summary for impact": true
+                },
+                {
+                    "9. CTA/CTE → Invite your reader to engage": true
+                },
+                {
+                    "10. Hashtags → 3 relevant hashtags for SEO": false
+                }
+            ],
+            "engaging": true,
+            "factually_relevant": true,
+            "formated": false,
+            "is_short_content": 0,
+            "no_blacklist": true,
+            "no_emojis": true,
+            "no_signature": true,
+            "reference": false
+        },
+        "assessment_score": 0.6599999999999999,
+        "compressed_paper": "🧬 Creation of a framework for fully declarative neural predicates in neuro-symbolic systems, enhancing learning and reasoning while retaining query flexibility. 🧬",
+        "content": "Imagining a world where decisions in business are backed by a seamless blend of AI's adaptability and hard logic might sound like sci-fi. But wait, what if I told you it's closer to reality than we think?\n\nPicture this: AI that doesn’t just learn but reasons, making strategic decisions clearer, faster, and more nuanced. Yet, here’s the twist – could this honestly be the game-changer we envision, or are we opening Pandora's box?\n\nThe essence lies in a groundbreaking approach: a Declarative AI-based Digital Consultant Platform, designed to elevate startups and SMEs above the fog of data overload. This isn't about feeding data and getting generic output; it's about precise, actionable insights from a complex blend of information.\n\nDelving deeper, we find:\n- **Customized Insights:** Imagine receiving strategy advice tailored explicitly to bespoke business questions. \n- **Scenario Simulation:** Navigate future paths with insights on possible outcomes, grounded in data.\n- **Adaptive Learning:** As your business landscape evolves, so does your digital confidant, offering increasingly accurate future guidance.\n- **Navigating the Regulatory Maze:** Guiding businesses through legalities, automatically updated to reflect the latest regulations.\n\nThe provocateur’s view:\nThis technological leap could paradoxically bind us in a web of complexity under the guise of precision. Is our quest for control leading us astray into an overanalyzed abyss?\n\n- The sheer complexity and breadth of decisions could freeze our intuitive action.\n- The assumption of seamless integration overlooks a stark reality: a divide between potential technological advancements and businesses' ability to assimilate them.\n\nA philosophical pivot:\nWhat if this isn't just about making better decisions but evolving our understanding of decision-making itself? This isn’t just a tool; it’s a crucible for forging business models that prioritize exploration over endpoints.\n\nSo, what's the real deal? Are we at the cusp of redefining business strategy through AI, or are we potentially complicating our decision-making fabric under the illusion of control? \n\nAre we prepared to navigate this complexity for a shot at unparalleled clarity and agility, or is the allure of advanced decision-making systems clouding our judgment?\n\nI invite you to dive into this debate - share your insights, experiences, or even your skepticism. Let's unravel this together.\n\n#AIRevolution #StrategicDecisionMaking #TechInnovation",
+        "paper": {
+            "_raw": {
+                "arxiv_primary_category": {
+                    "scheme": "http://arxiv.org/schemas/atom",
+                    "term": "cs.AI"
+                },
+                "author": "Sebastijan Dumancic",
+                "author_detail": {
+                    "name": "Sebastijan Dumancic"
+                },
+                "authors": [
+                    {
+                        "name": "Tilman Hinnerichs"
+                    },
+                    {
+                        "name": "Robin Manhaeve"
+                    },
+                    {
+                        "name": "Giuseppe Marra"
+                    },
+                    {
+                        "name": "Sebastijan Dumancic"
+                    }
+                ],
+                "guidislink": true,
+                "id": "http://arxiv.org/abs/2405.09521v1",
+                "link": "http://arxiv.org/abs/2405.09521v1",
+                "links": [
+                    {
+                        "href": "http://arxiv.org/abs/2405.09521v1",
+                        "rel": "alternate",
+                        "type": "text/html"
+                    },
+                    {
+                        "href": "http://arxiv.org/pdf/2405.09521v1",
+                        "rel": "related",
+                        "title": "pdf",
+                        "type": "application/pdf"
+                    }
+                ],
+                "published": "2024-05-15T17:24:34Z",
+                "published_parsed": [
+                    2024,
+                    5,
+                    15,
+                    17,
+                    24,
+                    34,
+                    2,
+                    136,
+                    0
+                ],
+                "summary": "Neuro-symbolic systems (NeSy), which claim to combine the best of both\nlearning and reasoning capabilities of artificial intelligence, are missing a\ncore property of reasoning systems: Declarativeness. The lack of\ndeclarativeness is caused by the functional nature of neural predicates\ninherited from neural networks. We propose and implement a general framework\nfor fully declarative neural predicates, which hence extends to fully\ndeclarative NeSy frameworks. We first show that the declarative extension\npreserves the learning and reasoning capabilities while being able to answer\narbitrary queries while only being trained on a single query type.",
+                "summary_detail": {
+                    "base": "",
+                    "language": null,
+                    "type": "text/plain",
+                    "value": "Neuro-symbolic systems (NeSy), which claim to combine the best of both\nlearning and reasoning capabilities of artificial intelligence, are missing a\ncore property of reasoning systems: Declarativeness. The lack of\ndeclarativeness is caused by the functional nature of neural predicates\ninherited from neural networks. We propose and implement a general framework\nfor fully declarative neural predicates, which hence extends to fully\ndeclarative NeSy frameworks. We first show that the declarative extension\npreserves the learning and reasoning capabilities while being able to answer\narbitrary queries while only being trained on a single query type."
+                },
+                "tags": [
+                    {
+                        "label": null,
+                        "scheme": "http://arxiv.org/schemas/atom",
+                        "term": "cs.AI"
+                    }
+                ],
+                "title": "Towards a fully declarative neuro-symbolic language",
+                "title_detail": {
+                    "base": "",
+                    "language": null,
+                    "type": "text/plain",
+                    "value": "Towards a fully declarative neuro-symbolic language"
+                },
+                "updated": "2024-05-15T17:24:34Z",
+                "updated_parsed": [
+                    2024,
+                    5,
+                    15,
+                    17,
+                    24,
+                    34,
+                    2,
+                    136,
+                    0
+                ]
+            },
+            "authors": [
+                "Tilman Hinnerichs",
+                "Robin Manhaeve",
+                "Giuseppe Marra",
+                "Sebastijan Dumancic"
+            ],
+            "categories": [
+                "cs.AI"
+            ],
+            "comment": null,
+            "doi": null,
+            "entry_id": "http://arxiv.org/abs/2405.09521v1",
+            "journal_ref": null,
+            "links": [
+                "http://arxiv.org/abs/2405.09521v1",
+                "http://arxiv.org/pdf/2405.09521v1"
+            ],
+            "pdf_url": "http://arxiv.org/pdf/2405.09521v1",
+            "primary_category": "cs.AI",
+            "published": "2024-05-15 17:24:34+00:00",
+            "summary": "Neuro-symbolic systems (NeSy), which claim to combine the best of both\nlearning and reasoning capabilities of artificial intelligence, are missing a\ncore property of reasoning systems: Declarativeness. The lack of\ndeclarativeness is caused by the functional nature of neural predicates\ninherited from neural networks. We propose and implement a general framework\nfor fully declarative neural predicates, which hence extends to fully\ndeclarative NeSy frameworks. We first show that the declarative extension\npreserves the learning and reasoning capabilities while being able to answer\narbitrary queries while only being trained on a single query type.",
+            "title": "Towards a fully declarative neuro-symbolic language",
+            "updated": "2024-05-15 17:24:34+00:00"
+        },
+        "share_urn": "urn:li:share:7196769373607313408",
+        "timestamp": "2024-05-16 17:01:48"
+    },
+    {
+        "assessment_obj": {
+            "component_grade_arr": [
+                {
+                    "1. Hook → Grab attention": true
+                },
+                {
+                    "2. Re-hook → Add curiosity": true
+                },
+                {
+                    "3. Lead → Why it's important": true
+                },
+                {
+                    "4. The rule of three → Powerful": false
+                },
+                {
+                    "5. Proof → Expertise adds a layer of trust. The technical how.": true
+                },
+                {
+                    "6. Body → The answer to your hook. Include reference to the source research title.": false
+                },
+                {
+                    "7. Listicles → Descending or ascending": false
+                },
+                {
+                    "8. Power-ending → Summary for impact": false
+                },
+                {
+                    "9. CTA/CTE → Invite your reader to engage": true
+                },
+                {
+                    "10. Hashtags → 3 relevant hashtags for SEO": false
+                }
+            ],
+            "engaging": true,
+            "factually_relevant": true,
+            "formated": false,
+            "is_short_content": 1,
+            "no_blacklist": true,
+            "no_emojis": false,
+            "no_signature": true,
+            "reference": true
+        },
+        "assessment_score": 0.82,
+        "compressed_paper": "🧬 The paper introduces an automatic text privatization framework that uses reinforcement learning to fine-tune a large language model, helping to obfuscate authorship and enhance privacy in online communications. 🧬",
+        "content": "Can you be both anonymous and credible in the digital age? \n\nThink about this for a moment…\n\nThe tension between privacy and credibility is reshaping the AI landscape. Is erasing authors’ fingerprints from their communications the key to privacy, or could enhancing credibility prove more critical?\n\nDiving deep into research, a study titled \"Keep It Private: Unsupervised Privatization of Online Text\" emerges, a novel concept that uses AI to obfuscate authorship inline text communication.\n\nBut now picture a potential start-up, CryptoScribe, armed with this ultramodern technology, set to change the game with four strategic moves:\n✔️ Safeguarding Data Privacy\n✔️ Streamlining Ghostwriting\n✔️ Enhancing Cybersecurity\n✔️ Guaranteeing Authenticity in Open Forums & Customer Reviews \n\nBut here’s the catch – imagine if we flip the script entirely.\n\nVisualize a digital world where every text, every article, and every comment has a unique, unmistakable digital seal of its origin. What a counter to the rise of deepfakes and misinformation could this 'Hyper-Credibility' be?\n\nAnd then, a rebel idea! To protect privacy, should we focus on anonymizing authorship or rather on identifying and redacting sensitive content, no matter the writer?\n\nAnonymity or credibility – which will be the real game-changer for online communication? \n\nWhat's your take? Let's push the boundaries of this conversation.\n\n#AI #DataPrivacy #DigitalTransformation",
+        "paper": {
+            "_raw": {
+                "arxiv_comment": "17 pages, 6 figures",
+                "arxiv_primary_category": {
+                    "scheme": "http://arxiv.org/schemas/atom",
+                    "term": "cs.CL"
+                },
+                "author": "Marine Carpuat",
+                "author_detail": {
+                    "name": "Marine Carpuat"
+                },
+                "authors": [
+                    {
+                        "name": "Calvin Bao"
+                    },
+                    {
+                        "name": "Marine Carpuat"
+                    }
+                ],
+                "guidislink": true,
+                "id": "http://arxiv.org/abs/2405.10260v1",
+                "link": "http://arxiv.org/abs/2405.10260v1",
+                "links": [
+                    {
+                        "href": "http://arxiv.org/abs/2405.10260v1",
+                        "rel": "alternate",
+                        "type": "text/html"
+                    },
+                    {
+                        "href": "http://arxiv.org/pdf/2405.10260v1",
+                        "rel": "related",
+                        "title": "pdf",
+                        "type": "application/pdf"
+                    }
+                ],
+                "published": "2024-05-16T17:12:18Z",
+                "published_parsed": [
+                    2024,
+                    5,
+                    16,
+                    17,
+                    12,
+                    18,
+                    3,
+                    137,
+                    0
+                ],
+                "summary": "Authorship obfuscation techniques hold the promise of helping people protect\ntheir privacy in online communications by automatically rewriting text to hide\nthe identity of the original author. However, obfuscation has been evaluated in\nnarrow settings in the NLP literature and has primarily been addressed with\nsuperficial edit operations that can lead to unnatural outputs. In this work,\nwe introduce an automatic text privatization framework that fine-tunes a large\nlanguage model via reinforcement learning to produce rewrites that balance\nsoundness, sense, and privacy. We evaluate it extensively on a large-scale test\nset of English Reddit posts by 68k authors composed of short-medium length\ntexts. We study how the performance changes among evaluative conditions\nincluding authorial profile length and authorship detection strategy. Our\nmethod maintains high text quality according to both automated metrics and\nhuman evaluation, and successfully evades several automated authorship attacks.",
+                "summary_detail": {
+                    "base": "",
+                    "language": null,
+                    "type": "text/plain",
+                    "value": "Authorship obfuscation techniques hold the promise of helping people protect\ntheir privacy in online communications by automatically rewriting text to hide\nthe identity of the original author. However, obfuscation has been evaluated in\nnarrow settings in the NLP literature and has primarily been addressed with\nsuperficial edit operations that can lead to unnatural outputs. In this work,\nwe introduce an automatic text privatization framework that fine-tunes a large\nlanguage model via reinforcement learning to produce rewrites that balance\nsoundness, sense, and privacy. We evaluate it extensively on a large-scale test\nset of English Reddit posts by 68k authors composed of short-medium length\ntexts. We study how the performance changes among evaluative conditions\nincluding authorial profile length and authorship detection strategy. Our\nmethod maintains high text quality according to both automated metrics and\nhuman evaluation, and successfully evades several automated authorship attacks."
+                },
+                "tags": [
+                    {
+                        "label": null,
+                        "scheme": "http://arxiv.org/schemas/atom",
+                        "term": "cs.CL"
+                    },
+                    {
+                        "label": null,
+                        "scheme": "http://arxiv.org/schemas/atom",
+                        "term": "cs.AI"
+                    }
+                ],
+                "title": "Keep It Private: Unsupervised Privatization of Online Text",
+                "title_detail": {
+                    "base": "",
+                    "language": null,
+                    "type": "text/plain",
+                    "value": "Keep It Private: Unsupervised Privatization of Online Text"
+                },
+                "updated": "2024-05-16T17:12:18Z",
+                "updated_parsed": [
+                    2024,
+                    5,
+                    16,
+                    17,
+                    12,
+                    18,
+                    3,
+                    137,
+                    0
+                ]
+            },
+            "authors": [
+                "Calvin Bao",
+                "Marine Carpuat"
+            ],
+            "categories": [
+                "cs.CL",
+                "cs.AI"
+            ],
+            "comment": "17 pages, 6 figures",
+            "doi": null,
+            "entry_id": "http://arxiv.org/abs/2405.10260v1",
+            "journal_ref": null,
+            "links": [
+                "http://arxiv.org/abs/2405.10260v1",
+                "http://arxiv.org/pdf/2405.10260v1"
+            ],
+            "pdf_url": "http://arxiv.org/pdf/2405.10260v1",
+            "primary_category": "cs.CL",
+            "published": "2024-05-16 17:12:18+00:00",
+            "summary": "Authorship obfuscation techniques hold the promise of helping people protect\ntheir privacy in online communications by automatically rewriting text to hide\nthe identity of the original author. However, obfuscation has been evaluated in\nnarrow settings in the NLP literature and has primarily been addressed with\nsuperficial edit operations that can lead to unnatural outputs. In this work,\nwe introduce an automatic text privatization framework that fine-tunes a large\nlanguage model via reinforcement learning to produce rewrites that balance\nsoundness, sense, and privacy. We evaluate it extensively on a large-scale test\nset of English Reddit posts by 68k authors composed of short-medium length\ntexts. We study how the performance changes among evaluative conditions\nincluding authorial profile length and authorship detection strategy. Our\nmethod maintains high text quality according to both automated metrics and\nhuman evaluation, and successfully evades several automated authorship attacks.",
+            "title": "Keep It Private: Unsupervised Privatization of Online Text",
+            "updated": "2024-05-16 17:12:18+00:00"
+        },
+        "share_urn": "urn:li:share:7197203451875926016",
+        "timestamp": "2024-05-17 20:35:56"
+    },
+    {
+        "assessment_obj": {
+            "component_grade_arr": [
+                {
+                    "1. Hook → Grab attention": true
+                },
+                {
+                    "2. Re-hook → Add curiosity": true
+                },
+                {
+                    "3. Lead → Why it's important": true
+                },
+                {
+                    "4. The rule of three → Powerful": false
+                },
+                {
+                    "5. Proof → Expertise adds a layer of trust. The technical how.": true
+                },
+                {
+                    "6. Body → The answer to your hook. Include reference to the source research title.": true
+                },
+                {
+                    "7. Listicles → Descending or ascending": false
+                },
+                {
+                    "8. Power-ending → Summary for impact": false
+                },
+                {
+                    "9. CTA/CTE → Invite your reader to engage": true
+                },
+                {
+                    "10. Hashtags → 3 relevant hashtags for SEO": true
+                }
+            ],
+            "engaging": true,
+            "factually_relevant": true,
+            "formated": false,
+            "is_short_content": 1,
+            "no_blacklist": true,
+            "no_emojis": true,
+            "no_signature": true,
+            "reference": true
+        },
+        "assessment_score": 0.9,
+        "compressed_paper": "🧬The research fine-tunes Vision-Language Models (VLMs) via reinforcement learning to improve decision-making in multi-step tasks, using a chain-of-thought reasoning approach that allows the VLM to explore intermediate reasoning steps for enhanced performance.🧬",
+        "content": "AI meets decision-making in an unusual twist. Grabs your attention? Let's kick it up a notch...\n\nThey say AI can’t explore intermediate reasoning steps. Well, recent research begs to differ! Dive into the vortex where Vision-Language Models (VLMs) navigate multi-step tasks through a \"chain-of-thought\" reasoning and prepare to be amazed.\n\nHere's why you need to pay attention:\n\n1) Enhanced Decision-Making: Explore uncharted territories with precision.\n2) A Radically Different Approach: Chains of thought aren’t only for humans anymore.\n3) Expanded AI Capabilities: Fasten your seatbelt as AI takes on complex tasks.\n\nDoubtful? Here’s the proof: Research titled 'Fine-Tuning Large Vision-Language Models as Decision-Making Agents via Reinforcement Learning' backs it up.\n\nThe nitty-gritty of it? The study fine-tunes VLMs via reinforcement learning, paving the way for improved decision-making capability and performance. \n\nAI is not just reproducing the results anymore. It's probing, reflecting, and reconsidering the steps in-between like never before. Take a moment to ponder on what this means for your business as AI goes beyond its conventional capacity.\n\nSimply put, our interaction with AI is set for a seismic shift. We're heeding the call for a more capable, more accessible future.\n\nWhat about you? Are you ready for an unconventional take on AI decision-making skills?\n   \n#AI #DecisionMaking #ReinforcementLearning",
+        "paper": {
+            "_raw": {
+                "arxiv_primary_category": {
+                    "scheme": "http://arxiv.org/schemas/atom",
+                    "term": "cs.AI"
+                },
+                "author": "Sergey Levine",
+                "author_detail": {
+                    "name": "Sergey Levine"
+                },
+                "authors": [
+                    {
+                        "name": "Yuexiang Zhai"
+                    },
+                    {
+                        "name": "Hao Bai"
+                    },
+                    {
+                        "name": "Zipeng Lin"
+                    },
+                    {
+                        "name": "Jiayi Pan"
+                    },
+                    {
+                        "name": "Shengbang Tong"
+                    },
+                    {
+                        "name": "Yifei Zhou"
+                    },
+                    {
+                        "name": "Alane Suhr"
+                    },
+                    {
+                        "name": "Saining Xie"
+                    },
+                    {
+                        "name": "Yann LeCun"
+                    },
+                    {
+                        "name": "Yi Ma"
+                    },
+                    {
+                        "name": "Sergey Levine"
+                    }
+                ],
+                "guidislink": true,
+                "id": "http://arxiv.org/abs/2405.10292v2",
+                "link": "http://arxiv.org/abs/2405.10292v2",
+                "links": [
+                    {
+                        "href": "http://arxiv.org/abs/2405.10292v2",
+                        "rel": "alternate",
+                        "type": "text/html"
+                    },
+                    {
+                        "href": "http://arxiv.org/pdf/2405.10292v2",
+                        "rel": "related",
+                        "title": "pdf",
+                        "type": "application/pdf"
+                    }
+                ],
+                "published": "2024-05-16T17:50:19Z",
+                "published_parsed": [
+                    2024,
+                    5,
+                    16,
+                    17,
+                    50,
+                    19,
+                    3,
+                    137,
+                    0
+                ],
+                "summary": "Large vision-language models (VLMs) fine-tuned on specialized visual\ninstruction-following data have exhibited impressive language reasoning\ncapabilities across various scenarios. However, this fine-tuning paradigm may\nnot be able to efficiently learn optimal decision-making agents in multi-step\ngoal-directed tasks from interactive environments. To address this challenge,\nwe propose an algorithmic framework that fine-tunes VLMs with reinforcement\nlearning (RL). Specifically, our framework provides a task description and then\nprompts the VLM to generate chain-of-thought (CoT) reasoning, enabling the VLM\nto efficiently explore intermediate reasoning steps that lead to the final\ntext-based action. Next, the open-ended text output is parsed into an\nexecutable action to interact with the environment to obtain goal-directed task\nrewards. Finally, our framework uses these task rewards to fine-tune the entire\nVLM with RL. Empirically, we demonstrate that our proposed framework enhances\nthe decision-making capabilities of VLM agents across various tasks, enabling\n7b models to outperform commercial models such as GPT4-V or Gemini.\nFurthermore, we find that CoT reasoning is a crucial component for performance\nimprovement, as removing the CoT reasoning results in a significant decrease in\nthe overall performance of our method.",
+                "summary_detail": {
+                    "base": "",
+                    "language": null,
+                    "type": "text/plain",
+                    "value": "Large vision-language models (VLMs) fine-tuned on specialized visual\ninstruction-following data have exhibited impressive language reasoning\ncapabilities across various scenarios. However, this fine-tuning paradigm may\nnot be able to efficiently learn optimal decision-making agents in multi-step\ngoal-directed tasks from interactive environments. To address this challenge,\nwe propose an algorithmic framework that fine-tunes VLMs with reinforcement\nlearning (RL). Specifically, our framework provides a task description and then\nprompts the VLM to generate chain-of-thought (CoT) reasoning, enabling the VLM\nto efficiently explore intermediate reasoning steps that lead to the final\ntext-based action. Next, the open-ended text output is parsed into an\nexecutable action to interact with the environment to obtain goal-directed task\nrewards. Finally, our framework uses these task rewards to fine-tune the entire\nVLM with RL. Empirically, we demonstrate that our proposed framework enhances\nthe decision-making capabilities of VLM agents across various tasks, enabling\n7b models to outperform commercial models such as GPT4-V or Gemini.\nFurthermore, we find that CoT reasoning is a crucial component for performance\nimprovement, as removing the CoT reasoning results in a significant decrease in\nthe overall performance of our method."
+                },
+                "tags": [
+                    {
+                        "label": null,
+                        "scheme": "http://arxiv.org/schemas/atom",
+                        "term": "cs.AI"
+                    },
+                    {
+                        "label": null,
+                        "scheme": "http://arxiv.org/schemas/atom",
+                        "term": "cs.CL"
+                    },
+                    {
+                        "label": null,
+                        "scheme": "http://arxiv.org/schemas/atom",
+                        "term": "cs.CV"
+                    },
+                    {
+                        "label": null,
+                        "scheme": "http://arxiv.org/schemas/atom",
+                        "term": "cs.LG"
+                    }
+                ],
+                "title": "Fine-Tuning Large Vision-Language Models as Decision-Making Agents via\n  Reinforcement Learning",
+                "title_detail": {
+                    "base": "",
+                    "language": null,
+                    "type": "text/plain",
+                    "value": "Fine-Tuning Large Vision-Language Models as Decision-Making Agents via\n  Reinforcement Learning"
+                },
+                "updated": "2024-05-17T03:45:09Z",
+                "updated_parsed": [
+                    2024,
+                    5,
+                    17,
+                    3,
+                    45,
+                    9,
+                    4,
+                    138,
+                    0
+                ]
+            },
+            "authors": [
+                "Yuexiang Zhai",
+                "Hao Bai",
+                "Zipeng Lin",
+                "Jiayi Pan",
+                "Shengbang Tong",
+                "Yifei Zhou",
+                "Alane Suhr",
+                "Saining Xie",
+                "Yann LeCun",
+                "Yi Ma",
+                "Sergey Levine"
+            ],
+            "categories": [
+                "cs.AI",
+                "cs.CL",
+                "cs.CV",
+                "cs.LG"
+            ],
+            "comment": null,
+            "doi": null,
+            "entry_id": "http://arxiv.org/abs/2405.10292v2",
+            "journal_ref": null,
+            "links": [
+                "http://arxiv.org/abs/2405.10292v2",
+                "http://arxiv.org/pdf/2405.10292v2"
+            ],
+            "pdf_url": "http://arxiv.org/pdf/2405.10292v2",
+            "primary_category": "cs.AI",
+            "published": "2024-05-16 17:50:19+00:00",
+            "summary": "Large vision-language models (VLMs) fine-tuned on specialized visual\ninstruction-following data have exhibited impressive language reasoning\ncapabilities across various scenarios. However, this fine-tuning paradigm may\nnot be able to efficiently learn optimal decision-making agents in multi-step\ngoal-directed tasks from interactive environments. To address this challenge,\nwe propose an algorithmic framework that fine-tunes VLMs with reinforcement\nlearning (RL). Specifically, our framework provides a task description and then\nprompts the VLM to generate chain-of-thought (CoT) reasoning, enabling the VLM\nto efficiently explore intermediate reasoning steps that lead to the final\ntext-based action. Next, the open-ended text output is parsed into an\nexecutable action to interact with the environment to obtain goal-directed task\nrewards. Finally, our framework uses these task rewards to fine-tune the entire\nVLM with RL. Empirically, we demonstrate that our proposed framework enhances\nthe decision-making capabilities of VLM agents across various tasks, enabling\n7b models to outperform commercial models such as GPT4-V or Gemini.\nFurthermore, we find that CoT reasoning is a crucial component for performance\nimprovement, as removing the CoT reasoning results in a significant decrease in\nthe overall performance of our method.",
+            "title": "Fine-Tuning Large Vision-Language Models as Decision-Making Agents via Reinforcement Learning",
+            "updated": "2024-05-17 03:45:09+00:00"
+        },
+        "share_urn": "urn:li:share:7198138108750540803",
+        "timestamp": "2024-05-20 11:39:51"
+    },
+    {
+        "assessment_obj": {
+            "component_grade_arr": [
+                {
+                    "1. Hook → Grab attention": true
+                },
+                {
+                    "2. Re-hook → Add curiosity": true
+                },
+                {
+                    "3. Lead → Why it's important": true
+                },
+                {
+                    "4. The rule of three → Powerful": true
+                },
+                {
+                    "5. Proof → Expertise adds a layer of trust. The technical how.": true
+                },
+                {
+                    "6. Body → The answer to your hook. Include reference to the source research title.": true
+                },
+                {
+                    "7. Listicles → Descending or ascending": false
+                },
+                {
+                    "8. Power-ending → Summary for impact": true
+                },
+                {
+                    "9. CTA/CTE → Invite your reader to engage": true
+                },
+                {
+                    "10. Hashtags → 3 relevant hashtags for SEO": true
+                }
+            ],
+            "engaging": true,
+            "factually_relevant": true,
+            "formated": true,
+            "is_short_content": 1,
+            "no_blacklist": true,
+            "no_emojis": true,
+            "no_signature": true,
+            "reference": true
+        },
+        "assessment_score": 0.9800000000000001,
+        "compressed_paper": "🧬 \"PIR (Prior Instruction Representation Learning) revolutionizes remote sensing image-text retrieval tasks, harnessing prior knowledge to refine visual and textual representations and feature selection, while minimizing the impact of semantic noise.\" 🧬",
+        "content": "The promise of Agritech has taken flight with the whisper of the newest research — PIR and its immense potential to impact not only industry but daily life...\n\nAsking about \"PIR: Remote Sensing Image-Text Retrieval with Prior Instruction Representation Learning\"? You're on the money. This research has given birth to a novel idea — ***FarmToFork***\n\nThis isn't your typical Agritech solution. With PIR as its backbone, FarmToFork provides a link between the origin of your food and the dinner plate. Simply scan your fresh produce or upload your market purchases, and FarmToFork takes a deep dive into remote sensing image data.\n\nAnd what it dig up:\n1. The farming conditions of your food.\n2. The journey your food took to reach your table.\n3. Last, but not least, green practices implemented by the farms.\n\nBut the shores of this innovation extend beyond just feeding data to consumers. We're challenging the accepted, eying the eccentric, illuminating the outliers! Trace the unseen footprint of climate change, hidden pest invasions, or even fertile produce regions — all from patterns detected by PIR.\n\nBut who has the most to gain here? \n\nFaced with the loops of the supermarket, could you see your choices swayed by FarmToFork insights?\n\nA question for you: will you stand with Team Farmer or Team Consumer in this dance of technology and tradition?\n\n#FromFarmToFork #Agritech #PIR",
+        "paper": {
+            "_raw": {
+                "arxiv_comment": "15 pages, 9 figures",
+                "arxiv_primary_category": {
+                    "scheme": "http://arxiv.org/schemas/atom",
+                    "term": "cs.CV"
+                },
+                "author": "Shengyong Chen",
+                "author_detail": {
+                    "name": "Shengyong Chen"
+                },
+                "authors": [
+                    {
+                        "name": "Jiancheng Pan"
+                    },
+                    {
+                        "name": "Muyuan Ma"
+                    },
+                    {
+                        "name": "Qing Ma"
+                    },
+                    {
+                        "name": "Cong Bai"
+                    },
+                    {
+                        "name": "Shengyong Chen"
+                    }
+                ],
+                "guidislink": true,
+                "id": "http://arxiv.org/abs/2405.10160v1",
+                "link": "http://arxiv.org/abs/2405.10160v1",
+                "links": [
+                    {
+                        "href": "http://arxiv.org/abs/2405.10160v1",
+                        "rel": "alternate",
+                        "type": "text/html"
+                    },
+                    {
+                        "href": "http://arxiv.org/pdf/2405.10160v1",
+                        "rel": "related",
+                        "title": "pdf",
+                        "type": "application/pdf"
+                    }
+                ],
+                "published": "2024-05-16T14:53:45Z",
+                "published_parsed": [
+                    2024,
+                    5,
+                    16,
+                    14,
+                    53,
+                    45,
+                    3,
+                    137,
+                    0
+                ],
+                "summary": "Remote sensing image-text retrieval constitutes a foundational aspect of\nremote sensing interpretation tasks, facilitating the alignment of vision and\nlanguage representations. This paper introduces a prior instruction\nrepresentation (PIR) learning paradigm that draws on prior knowledge to\ninstruct adaptive learning of vision and text representations. Based on PIR, a\ndomain-adapted remote sensing image-text retrieval framework PIR-ITR is\ndesigned to address semantic noise issues in vision-language understanding\ntasks. However, with massive additional data for pre-training the\nvision-language foundation model, remote sensing image-text retrieval is\nfurther developed into an open-domain retrieval task. Continuing with the\nabove, we propose PIR-CLIP, a domain-specific CLIP-based framework for remote\nsensing image-text retrieval, to address semantic noise in remote sensing\nvision-language representations and further improve open-domain retrieval\nperformance. In vision representation, Vision Instruction Representation (VIR)\nbased on Spatial-PAE utilizes the prior-guided knowledge of the remote sensing\nscene recognition by building a belief matrix to select key features for\nreducing the impact of semantic noise. In text representation, Language Cycle\nAttention (LCA) based on Temporal-PAE uses the previous time step to cyclically\nactivate the current time step to enhance text representation capability. A\ncluster-wise Affiliation Loss (AL) is proposed to constrain the inter-classes\nand to reduce the semantic confusion zones in the common subspace.\nComprehensive experiments demonstrate that PIR could enhance vision and text\nrepresentations and outperform the state-of-the-art methods of closed-domain\nand open-domain retrieval on two benchmark datasets, RSICD and RSITMD.",
+                "summary_detail": {
+                    "base": "",
+                    "language": null,
+                    "type": "text/plain",
+                    "value": "Remote sensing image-text retrieval constitutes a foundational aspect of\nremote sensing interpretation tasks, facilitating the alignment of vision and\nlanguage representations. This paper introduces a prior instruction\nrepresentation (PIR) learning paradigm that draws on prior knowledge to\ninstruct adaptive learning of vision and text representations. Based on PIR, a\ndomain-adapted remote sensing image-text retrieval framework PIR-ITR is\ndesigned to address semantic noise issues in vision-language understanding\ntasks. However, with massive additional data for pre-training the\nvision-language foundation model, remote sensing image-text retrieval is\nfurther developed into an open-domain retrieval task. Continuing with the\nabove, we propose PIR-CLIP, a domain-specific CLIP-based framework for remote\nsensing image-text retrieval, to address semantic noise in remote sensing\nvision-language representations and further improve open-domain retrieval\nperformance. In vision representation, Vision Instruction Representation (VIR)\nbased on Spatial-PAE utilizes the prior-guided knowledge of the remote sensing\nscene recognition by building a belief matrix to select key features for\nreducing the impact of semantic noise. In text representation, Language Cycle\nAttention (LCA) based on Temporal-PAE uses the previous time step to cyclically\nactivate the current time step to enhance text representation capability. A\ncluster-wise Affiliation Loss (AL) is proposed to constrain the inter-classes\nand to reduce the semantic confusion zones in the common subspace.\nComprehensive experiments demonstrate that PIR could enhance vision and text\nrepresentations and outperform the state-of-the-art methods of closed-domain\nand open-domain retrieval on two benchmark datasets, RSICD and RSITMD."
+                },
+                "tags": [
+                    {
+                        "label": null,
+                        "scheme": "http://arxiv.org/schemas/atom",
+                        "term": "cs.CV"
+                    },
+                    {
+                        "label": null,
+                        "scheme": "http://arxiv.org/schemas/atom",
+                        "term": "cs.AI"
+                    }
+                ],
+                "title": "PIR: Remote Sensing Image-Text Retrieval with Prior Instruction\n  Representation Learning",
+                "title_detail": {
+                    "base": "",
+                    "language": null,
+                    "type": "text/plain",
+                    "value": "PIR: Remote Sensing Image-Text Retrieval with Prior Instruction\n  Representation Learning"
+                },
+                "updated": "2024-05-16T14:53:45Z",
+                "updated_parsed": [
+                    2024,
+                    5,
+                    16,
+                    14,
+                    53,
+                    45,
+                    3,
+                    137,
+                    0
+                ]
+            },
+            "authors": [
+                "Jiancheng Pan",
+                "Muyuan Ma",
+                "Qing Ma",
+                "Cong Bai",
+                "Shengyong Chen"
+            ],
+            "categories": [
+                "cs.CV",
+                "cs.AI"
+            ],
+            "comment": "15 pages, 9 figures",
+            "doi": null,
+            "entry_id": "http://arxiv.org/abs/2405.10160v1",
+            "journal_ref": null,
+            "links": [
+                "http://arxiv.org/abs/2405.10160v1",
+                "http://arxiv.org/pdf/2405.10160v1"
+            ],
+            "pdf_url": "http://arxiv.org/pdf/2405.10160v1",
+            "primary_category": "cs.CV",
+            "published": "2024-05-16 14:53:45+00:00",
+            "summary": "Remote sensing image-text retrieval constitutes a foundational aspect of\nremote sensing interpretation tasks, facilitating the alignment of vision and\nlanguage representations. This paper introduces a prior instruction\nrepresentation (PIR) learning paradigm that draws on prior knowledge to\ninstruct adaptive learning of vision and text representations. Based on PIR, a\ndomain-adapted remote sensing image-text retrieval framework PIR-ITR is\ndesigned to address semantic noise issues in vision-language understanding\ntasks. However, with massive additional data for pre-training the\nvision-language foundation model, remote sensing image-text retrieval is\nfurther developed into an open-domain retrieval task. Continuing with the\nabove, we propose PIR-CLIP, a domain-specific CLIP-based framework for remote\nsensing image-text retrieval, to address semantic noise in remote sensing\nvision-language representations and further improve open-domain retrieval\nperformance. In vision representation, Vision Instruction Representation (VIR)\nbased on Spatial-PAE utilizes the prior-guided knowledge of the remote sensing\nscene recognition by building a belief matrix to select key features for\nreducing the impact of semantic noise. In text representation, Language Cycle\nAttention (LCA) based on Temporal-PAE uses the previous time step to cyclically\nactivate the current time step to enhance text representation capability. A\ncluster-wise Affiliation Loss (AL) is proposed to constrain the inter-classes\nand to reduce the semantic confusion zones in the common subspace.\nComprehensive experiments demonstrate that PIR could enhance vision and text\nrepresentations and outperform the state-of-the-art methods of closed-domain\nand open-domain retrieval on two benchmark datasets, RSICD and RSITMD.",
+            "title": "PIR: Remote Sensing Image-Text Retrieval with Prior Instruction Representation Learning",
+            "updated": "2024-05-16 14:53:45+00:00"
+        },
+        "share_urn": "urn:li:share:7198146712094334976",
+        "timestamp": "2024-05-20 12:16:35"
+    }
+]

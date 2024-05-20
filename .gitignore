@@ -1,2 +1,5 @@
 .env
-scripts/gentextimguploadscript.py
+.cache
+*/*.log
+*.log
+generation/images/*
