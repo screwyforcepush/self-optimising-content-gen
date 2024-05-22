@@ -1,6 +1,7 @@
 import requests
 from dotenv import load_dotenv
 import os
+import re
 
 # Load the .env file
 load_dotenv()
@@ -52,10 +53,12 @@ def post_image_and_text(file_path: str, text_content: str):
     get_image_response = requests.get(get_image_url, headers=headers)
     print(get_image_response.json())  # Display the image details for confirmation
 
+    parsed = re.sub(r'[\(\)*\[\]\{\}<>@|~_]', r'\\\g<0>', text_content)
+
     # Step 3: Create the image share
     post_data = {
         "author": LK_OWNER,
-        "commentary": text_content,
+        "commentary": parsed,
         "visibility": "PUBLIC",
         "distribution": {
             "feedDistribution": "MAIN_FEED",

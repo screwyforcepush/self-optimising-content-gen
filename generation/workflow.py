@@ -1,15 +1,14 @@
 import os
 from dotenv import load_dotenv
-import os
 import autogen
-from tools import ALL_TOOLS, gen_img_save, register_tool, fetch_latest_ai_papers, save_workflow_output, mark_paper_as_consumed
+from tools import ALL_TOOLS, gen_img_save, fetch_latest_ai_papers, save_workflow_output, mark_paper_as_consumed
 from agents import get_agent
 from assessment import content_metric, blacklist_words
 from linkedin_integration import post_image_and_text, post_comment_on_linkedin
 import json
 import ast
 from datetime import datetime
-load_dotenv()
+load_dotenv(override=True)
 
 
 config_list = [{"model": "gpt-4", "api_key": os.getenv("OPENAI_API_KEY")}]

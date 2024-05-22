@@ -3,3 +3,4 @@
 */*.log
 *.log
 generation/images/*
+generation/system_messages.py

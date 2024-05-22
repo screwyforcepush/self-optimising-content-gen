@@ -4795,5 +4795,1368 @@
             "updated": "2024-05-16 17:27:41+00:00"
         },
         "timestamp": "2024-05-20 12:16:35"
+    },
+    {
+        "assessment_obj": {
+            "component_grade_arr": [
+                {
+                    "1. Hook → Grab attention": true
+                },
+                {
+                    "2. Re-hook → Add curiosity": true
+                },
+                {
+                    "3. Lead → Why it's important": true
+                },
+                {
+                    "4. The rule of three → Powerful": true
+                },
+                {
+                    "5. Proof → Expertise adds a layer of trust. The technical how.": true
+                },
+                {
+                    "6. Body → The answer to your hook. Include reference to the source research title.": true
+                },
+                {
+                    "7. Listicles → Descending or ascending": false
+                },
+                {
+                    "8. Power-ending → Summary for impact": true
+                },
+                {
+                    "9. CTA/CTE → Invite your reader to engage": false
+                },
+                {
+                    "10. Hashtags → 3 relevant hashtags for SEO": false
+                }
+            ],
+            "engaging": true,
+            "factually_relevant": true,
+            "formated": false,
+            "is_short_content": 0.5,
+            "no_blacklist": true,
+            "no_emojis": false,
+            "no_signature": true,
+            "reference": true
+        },
+        "assessment_score": 0.76,
+        "compressed_paper": "🧬The research evidences metacognitive capabilities in powerful Localised-Language-Models (LLMs), demonstrating the activation of distinct skill labels for problem-solving, improving accuracy particularly in mathematical contexts.🧬",
+        "content": "Are you prepared for AI to redefine how we tackle business challenges? \n\n➡️The latest findings in AI are prompting a colossal refinement of our strategic practices. The eye-opening research, 'Metacognitive Capabilities of LLMs: An Exploration in Mathematical Problem Solving,' showcases the prowess of Localized-Language-Models (LLMs) in unravelling mathematically complex puzzles. \n\nEnter the stage, #MetaStrat, a blossoming strategy consultancy capitalizing on the metacognitive abilities of LLMs, dissecting business obstacles with precision and inventiveness. 💡\n\nThe Progressive outlook consists of: \n1. Utilizing novel strategic techniques from SWOT to disruptive innovation. \n2. Building a dynamic resource of solutions, learning from past strategies for addressing fresh challenges. \n3. Offering thorough mentorship through metacognition - identifying pitfalls, and detailed strategic guidance!\n\nBut then arises the question - can these models account for the messy, unpredictable nature of real-world business scenarios? The 'human factor' that escapes pure data analysis – from the instincts of a leader, concealed corporate dynamics, volatile market sentiments to hidden competitor tactics...\n\nHere lies the challenge, and the opportunity! \n\nSuppose we integrate an AI apprentice in the intricate world of business strategy. A model learning the ropes, grinding numbers, and even experiencing the thrill of overcoming hurdles. Offering emerging strategists a head start imbued with experience!\n\nExpect a marriage of mathematical precision and human intricacy. A balanced fusion of AI-driven metacognition and human instinct!💥\n\nIs the business world ready to embrace this magnitude of change? Are we set for a strategic metamorphosis accelerated by AI? \n\nSound off your thoughts!\n\n#AI #BusinessStrategy #Metacognition",
+        "paper": {
+            "_raw": {
+                "arxiv_comment": "Preprint. Under review",
+                "arxiv_primary_category": {
+                    "scheme": "http://arxiv.org/schemas/atom",
+                    "term": "cs.AI"
+                },
+                "author": "Sanjeev Arora",
+                "author_detail": {
+                    "name": "Sanjeev Arora"
+                },
+                "authors": [
+                    {
+                        "name": "Aniket Didolkar"
+                    },
+                    {
+                        "name": "Anirudh Goyal"
+                    },
+                    {
+                        "name": "Nan Rosemary Ke"
+                    },
+                    {
+                        "name": "Siyuan Guo"
+                    },
+                    {
+                        "name": "Michal Valko"
+                    },
+                    {
+                        "name": "Timothy Lillicrap"
+                    },
+                    {
+                        "name": "Danilo Rezende"
+                    },
+                    {
+                        "name": "Yoshua Bengio"
+                    },
+                    {
+                        "name": "Michael Mozer"
+                    },
+                    {
+                        "name": "Sanjeev Arora"
+                    }
+                ],
+                "guidislink": true,
+                "id": "http://arxiv.org/abs/2405.12205v1",
+                "link": "http://arxiv.org/abs/2405.12205v1",
+                "links": [
+                    {
+                        "href": "http://arxiv.org/abs/2405.12205v1",
+                        "rel": "alternate",
+                        "type": "text/html"
+                    },
+                    {
+                        "href": "http://arxiv.org/pdf/2405.12205v1",
+                        "rel": "related",
+                        "title": "pdf",
+                        "type": "application/pdf"
+                    }
+                ],
+                "published": "2024-05-20T17:45:26Z",
+                "published_parsed": [
+                    2024,
+                    5,
+                    20,
+                    17,
+                    45,
+                    26,
+                    0,
+                    141,
+                    0
+                ],
+                "summary": "Metacognitive knowledge refers to humans' intuitive knowledge of their own\nthinking and reasoning processes. Today's best LLMs clearly possess some\nreasoning processes. The paper gives evidence that they also have metacognitive\nknowledge, including ability to name skills and procedures to apply given a\ntask. We explore this primarily in context of math reasoning, developing a\nprompt-guided interaction procedure to get a powerful LLM to assign sensible\nskill labels to math questions, followed by having it perform semantic\nclustering to obtain coarser families of skill labels. These coarse skill\nlabels look interpretable to humans.\n  To validate that these skill labels are meaningful and relevant to the LLM's\nreasoning processes we perform the following experiments. (a) We ask GPT-4 to\nassign skill labels to training questions in math datasets GSM8K and MATH. (b)\nWhen using an LLM to solve the test questions, we present it with the full list\nof skill labels and ask it to identify the skill needed. Then it is presented\nwith randomly selected exemplar solved questions associated with that skill\nlabel. This improves accuracy on GSM8k and MATH for several strong LLMs,\nincluding code-assisted models. The methodology presented is domain-agnostic,\neven though this article applies it to math problems.",
+                "summary_detail": {
+                    "base": "",
+                    "language": null,
+                    "type": "text/plain",
+                    "value": "Metacognitive knowledge refers to humans' intuitive knowledge of their own\nthinking and reasoning processes. Today's best LLMs clearly possess some\nreasoning processes. The paper gives evidence that they also have metacognitive\nknowledge, including ability to name skills and procedures to apply given a\ntask. We explore this primarily in context of math reasoning, developing a\nprompt-guided interaction procedure to get a powerful LLM to assign sensible\nskill labels to math questions, followed by having it perform semantic\nclustering to obtain coarser families of skill labels. These coarse skill\nlabels look interpretable to humans.\n  To validate that these skill labels are meaningful and relevant to the LLM's\nreasoning processes we perform the following experiments. (a) We ask GPT-4 to\nassign skill labels to training questions in math datasets GSM8K and MATH. (b)\nWhen using an LLM to solve the test questions, we present it with the full list\nof skill labels and ask it to identify the skill needed. Then it is presented\nwith randomly selected exemplar solved questions associated with that skill\nlabel. This improves accuracy on GSM8k and MATH for several strong LLMs,\nincluding code-assisted models. The methodology presented is domain-agnostic,\neven though this article applies it to math problems."
+                },
+                "tags": [
+                    {
+                        "label": null,
+                        "scheme": "http://arxiv.org/schemas/atom",
+                        "term": "cs.AI"
+                    },
+                    {
+                        "label": null,
+                        "scheme": "http://arxiv.org/schemas/atom",
+                        "term": "cs.LG"
+                    }
+                ],
+                "title": "Metacognitive Capabilities of LLMs: An Exploration in Mathematical\n  Problem Solving",
+                "title_detail": {
+                    "base": "",
+                    "language": null,
+                    "type": "text/plain",
+                    "value": "Metacognitive Capabilities of LLMs: An Exploration in Mathematical\n  Problem Solving"
+                },
+                "updated": "2024-05-20T17:45:26Z",
+                "updated_parsed": [
+                    2024,
+                    5,
+                    20,
+                    17,
+                    45,
+                    26,
+                    0,
+                    141,
+                    0
+                ]
+            },
+            "authors": [
+                "Aniket Didolkar",
+                "Anirudh Goyal",
+                "Nan Rosemary Ke",
+                "Siyuan Guo",
+                "Michal Valko",
+                "Timothy Lillicrap",
+                "Danilo Rezende",
+                "Yoshua Bengio",
+                "Michael Mozer",
+                "Sanjeev Arora"
+            ],
+            "categories": [
+                "cs.AI",
+                "cs.LG"
+            ],
+            "comment": "Preprint. Under review",
+            "doi": null,
+            "entry_id": "http://arxiv.org/abs/2405.12205v1",
+            "journal_ref": null,
+            "links": [
+                "http://arxiv.org/abs/2405.12205v1",
+                "http://arxiv.org/pdf/2405.12205v1"
+            ],
+            "pdf_url": "http://arxiv.org/pdf/2405.12205v1",
+            "primary_category": "cs.AI",
+            "published": "2024-05-20 17:45:26+00:00",
+            "summary": "Metacognitive knowledge refers to humans' intuitive knowledge of their own\nthinking and reasoning processes. Today's best LLMs clearly possess some\nreasoning processes. The paper gives evidence that they also have metacognitive\nknowledge, including ability to name skills and procedures to apply given a\ntask. We explore this primarily in context of math reasoning, developing a\nprompt-guided interaction procedure to get a powerful LLM to assign sensible\nskill labels to math questions, followed by having it perform semantic\nclustering to obtain coarser families of skill labels. These coarse skill\nlabels look interpretable to humans.\n  To validate that these skill labels are meaningful and relevant to the LLM's\nreasoning processes we perform the following experiments. (a) We ask GPT-4 to\nassign skill labels to training questions in math datasets GSM8K and MATH. (b)\nWhen using an LLM to solve the test questions, we present it with the full list\nof skill labels and ask it to identify the skill needed. Then it is presented\nwith randomly selected exemplar solved questions associated with that skill\nlabel. This improves accuracy on GSM8k and MATH for several strong LLMs,\nincluding code-assisted models. The methodology presented is domain-agnostic,\neven though this article applies it to math problems.",
+            "title": "Metacognitive Capabilities of LLMs: An Exploration in Mathematical Problem Solving",
+            "updated": "2024-05-20 17:45:26+00:00"
+        },
+        "timestamp": "2024-05-21 15:18:49"
+    },
+    {
+        "assessment_obj": {
+            "component_grade_arr": [
+                {
+                    "1. Hook → Grab attention": true
+                },
+                {
+                    "2. Re-hook → Add curiosity": true
+                },
+                {
+                    "3. Lead → Why it's important": true
+                },
+                {
+                    "4. The rule of three → Powerful": false
+                },
+                {
+                    "5. Proof → Expertise adds a layer of trust. The technical how.": true
+                },
+                {
+                    "6. Body → The answer to your hook. Include reference to the source research title.": true
+                },
+                {
+                    "7. Listicles → Descending or ascending": false
+                },
+                {
+                    "8. Power-ending → Summary for impact": true
+                },
+                {
+                    "9. CTA/CTE → Invite your reader to engage": true
+                },
+                {
+                    "10. Hashtags → 3 relevant hashtags for SEO": true
+                }
+            ],
+            "engaging": true,
+            "factually_relevant": false,
+            "formated": false,
+            "is_short_content": 0.5,
+            "no_blacklist": true,
+            "no_emojis": true,
+            "no_signature": true,
+            "reference": false
+        },
+        "assessment_score": 0.74,
+        "compressed_paper": "🧬The research paper introduces a novel resolution-invariant super-resolution method called the Hierarchical Neural Operator Transformer, which uses a self-attention mechanism and sinc filters for information transfer, along with a model-agnostic learnable loss prior structure for effective gradient balance, thereby improving resolution enhancement across diverse datasets.🧬",
+        "content": "Get ready for this: the future of digital resolution is not just about more pixels, but fewer. Surprised? Allow me to explain.\n\n'Neural Operator Transformer', a recent research outcome, regulates resolution; it can both intensify and minimize it. The real kicker? There are times when less is actually more. \n\nVisualize an e-commerce platform where low-res product images morph into HD masterpieces, providing customers with an unmatched shopping experience. Or in healthcare, where an amplified view of diagnostic scans could be a game-changer.\n\nNow, let's put a spin on it - instead of demanding more pixels, appreciate the aesthetics of less. Welcome to the era of \"Pixel-Think\", where art embraces a nostalgically pixelated vibe.\n\nThen, there's data compression magic; we control the procedure, ensuring the preservation of essential information. The result? Data transmission, from the depths of space, highly classified information, or vast quantities of Big Data, has become more practicable and secure.\n\nPlus, Machine Learning models can be educated with less computational power, by utilizing lower-resolution versions of the training data! Now, that's a smart move!\n\nAs we navigate this surprisingly advanced low-res avenue, let's dare to uncover unexpected efficiencies. We're not just redefining our comprehension of digital resolution, we're discovering valuable efficiencies.\n\nOut of our journey in this pixelated landscape, what enthralls you? Share your thoughts below.\n\n#ShiftingPixels #ResolutionRevamp #PixelEssence #TechInnovation #FutureTrends",
+        "paper": {
+            "_raw": {
+                "arxiv_comment": "20 pages, 14 figures",
+                "arxiv_primary_category": {
+                    "scheme": "http://arxiv.org/schemas/atom",
+                    "term": "cs.CV"
+                },
+                "author": "Byung-Jun Yoon",
+                "author_detail": {
+                    "name": "Byung-Jun Yoon"
+                },
+                "authors": [
+                    {
+                        "name": "Xihaier Luo"
+                    },
+                    {
+                        "name": "Xiaoning Qian"
+                    },
+                    {
+                        "name": "Byung-Jun Yoon"
+                    }
+                ],
+                "guidislink": true,
+                "id": "http://arxiv.org/abs/2405.12202v1",
+                "link": "http://arxiv.org/abs/2405.12202v1",
+                "links": [
+                    {
+                        "href": "http://arxiv.org/abs/2405.12202v1",
+                        "rel": "alternate",
+                        "type": "text/html"
+                    },
+                    {
+                        "href": "http://arxiv.org/pdf/2405.12202v1",
+                        "rel": "related",
+                        "title": "pdf",
+                        "type": "application/pdf"
+                    }
+                ],
+                "published": "2024-05-20T17:39:29Z",
+                "published_parsed": [
+                    2024,
+                    5,
+                    20,
+                    17,
+                    39,
+                    29,
+                    0,
+                    141,
+                    0
+                ],
+                "summary": "In this work, we present an arbitrary-scale super-resolution (SR) method to\nenhance the resolution of scientific data, which often involves complex\nchallenges such as continuity, multi-scale physics, and the intricacies of\nhigh-frequency signals. Grounded in operator learning, the proposed method is\nresolution-invariant. The core of our model is a hierarchical neural operator\nthat leverages a Galerkin-type self-attention mechanism, enabling efficient\nlearning of mappings between function spaces. Sinc filters are used to\nfacilitate the information transfer across different levels in the hierarchy,\nthereby ensuring representation equivalence in the proposed neural operator.\nAdditionally, we introduce a learnable prior structure that is derived from the\nspectral resizing of the input data. This loss prior is model-agnostic and is\ndesigned to dynamically adjust the weighting of pixel contributions, thereby\nbalancing gradients effectively across the model. We conduct extensive\nexperiments on diverse datasets from different domains and demonstrate\nconsistent improvements compared to strong baselines, which consist of various\nstate-of-the-art SR methods.",
+                "summary_detail": {
+                    "base": "",
+                    "language": null,
+                    "type": "text/plain",
+                    "value": "In this work, we present an arbitrary-scale super-resolution (SR) method to\nenhance the resolution of scientific data, which often involves complex\nchallenges such as continuity, multi-scale physics, and the intricacies of\nhigh-frequency signals. Grounded in operator learning, the proposed method is\nresolution-invariant. The core of our model is a hierarchical neural operator\nthat leverages a Galerkin-type self-attention mechanism, enabling efficient\nlearning of mappings between function spaces. Sinc filters are used to\nfacilitate the information transfer across different levels in the hierarchy,\nthereby ensuring representation equivalence in the proposed neural operator.\nAdditionally, we introduce a learnable prior structure that is derived from the\nspectral resizing of the input data. This loss prior is model-agnostic and is\ndesigned to dynamically adjust the weighting of pixel contributions, thereby\nbalancing gradients effectively across the model. We conduct extensive\nexperiments on diverse datasets from different domains and demonstrate\nconsistent improvements compared to strong baselines, which consist of various\nstate-of-the-art SR methods."
+                },
+                "tags": [
+                    {
+                        "label": null,
+                        "scheme": "http://arxiv.org/schemas/atom",
+                        "term": "cs.CV"
+                    },
+                    {
+                        "label": null,
+                        "scheme": "http://arxiv.org/schemas/atom",
+                        "term": "cs.AI"
+                    }
+                ],
+                "title": "Hierarchical Neural Operator Transformer with Learnable Frequency-aware\n  Loss Prior for Arbitrary-scale Super-resolution",
+                "title_detail": {
+                    "base": "",
+                    "language": null,
+                    "type": "text/plain",
+                    "value": "Hierarchical Neural Operator Transformer with Learnable Frequency-aware\n  Loss Prior for Arbitrary-scale Super-resolution"
+                },
+                "updated": "2024-05-20T17:39:29Z",
+                "updated_parsed": [
+                    2024,
+                    5,
+                    20,
+                    17,
+                    39,
+                    29,
+                    0,
+                    141,
+                    0
+                ]
+            },
+            "authors": [
+                "Xihaier Luo",
+                "Xiaoning Qian",
+                "Byung-Jun Yoon"
+            ],
+            "categories": [
+                "cs.CV",
+                "cs.AI"
+            ],
+            "comment": "20 pages, 14 figures",
+            "doi": null,
+            "entry_id": "http://arxiv.org/abs/2405.12202v1",
+            "journal_ref": null,
+            "links": [
+                "http://arxiv.org/abs/2405.12202v1",
+                "http://arxiv.org/pdf/2405.12202v1"
+            ],
+            "pdf_url": "http://arxiv.org/pdf/2405.12202v1",
+            "primary_category": "cs.CV",
+            "published": "2024-05-20 17:39:29+00:00",
+            "summary": "In this work, we present an arbitrary-scale super-resolution (SR) method to\nenhance the resolution of scientific data, which often involves complex\nchallenges such as continuity, multi-scale physics, and the intricacies of\nhigh-frequency signals. Grounded in operator learning, the proposed method is\nresolution-invariant. The core of our model is a hierarchical neural operator\nthat leverages a Galerkin-type self-attention mechanism, enabling efficient\nlearning of mappings between function spaces. Sinc filters are used to\nfacilitate the information transfer across different levels in the hierarchy,\nthereby ensuring representation equivalence in the proposed neural operator.\nAdditionally, we introduce a learnable prior structure that is derived from the\nspectral resizing of the input data. This loss prior is model-agnostic and is\ndesigned to dynamically adjust the weighting of pixel contributions, thereby\nbalancing gradients effectively across the model. We conduct extensive\nexperiments on diverse datasets from different domains and demonstrate\nconsistent improvements compared to strong baselines, which consist of various\nstate-of-the-art SR methods.",
+            "title": "Hierarchical Neural Operator Transformer with Learnable Frequency-aware Loss Prior for Arbitrary-scale Super-resolution",
+            "updated": "2024-05-20 17:39:29+00:00"
+        },
+        "timestamp": "2024-05-21 15:18:49"
+    },
+    {
+        "assessment_obj": {
+            "component_grade_arr": [
+                {
+                    "1. Hook → Grab attention": true
+                },
+                {
+                    "2. Re-hook → Add curiosity": true
+                },
+                {
+                    "3. Lead → Why it's important": true
+                },
+                {
+                    "4. The rule of three → Powerful": false
+                },
+                {
+                    "5. Proof → Expertise adds a layer of trust. The technical how.": true
+                },
+                {
+                    "6. Body → The answer to your hook. Include reference to the source research title.": true
+                },
+                {
+                    "7. Listicles → Descending or ascending": false
+                },
+                {
+                    "8. Power-ending → Summary for impact": false
+                },
+                {
+                    "9. CTA/CTE → Invite your reader to engage": false
+                },
+                {
+                    "10. Hashtags → 3 relevant hashtags for SEO": false
+                }
+            ],
+            "engaging": true,
+            "factually_relevant": true,
+            "formated": false,
+            "is_short_content": 0.5,
+            "no_blacklist": true,
+            "no_emojis": true,
+            "no_signature": true,
+            "reference": true
+        },
+        "assessment_score": 0.76,
+        "compressed_paper": "🧬 This research paper introduces a novel Multi-Order Graph Clustering model (MOGC) that integrates multiple higher-order structures and edge connections at node level with an adaptive weight-learning mechanism, promising increased clustering accuracy and efficient resolution to the hypergraph fragmentation issue. 🧬",
+        "content": "Attention AI Enthusiasts: Meet Multi-Order Graph Clustering (MOGC), the latest contender in Network Analysis. Based on innovative research 'Multi-order Graph Clustering with Adaptive Node-level Weight Learning', this algorithm is set to recalibrate our understanding.\n\nHere's why: It brings to the battlefield:\n- Mighty defense against Hypergraph Fragmentation.\n- An adept hand at simultaneous Node-level motifs juggling.\n\nApplication of MOGC has potential to catapult businesses ahead:\n1. \"Adaptive Consumer Cohorts\" for Digital Marketing - Create ultra-targeted, persuasive ad campaigns.\n2. \"Start-up Network Optimization\" - Foster strategic relationships and manage precious resources.\n3. \"Product Recommendation\" - Bid farewell to generic suggestions: welcome refined, personalized shopping guidance.\n4. \"Data-driven Product Development\" - Discover breakthrough product features through insightful customer usage patterns.\n\nIncoming Twist: What if we utilize MOGC to confound data, bolstering privacy safeguards? A de-clusterizing tool for better security? Intriguing, isn’t it?\n\nBut let's pause: MOGC is a thrilling route, yet assumptions require scrutiny.\n1. What transpires when multiple motifs converge at the node level? Pure clarity or an overload of sophistication?\n2. Fragmentation: Unwanted disturbance or the vital element to expose unique patterns?\n3. What’s the aftermath of calculated weight adjustments? Focused perception or skewed interpretations?\n\nRemember, novel paths only unveil when we dare to diverge.\n\nLet’s probe further. What's your take on MOGC and its potential applications? #DataScience #DigitalInnovation #MOGC",
+        "paper": {
+            "_raw": {
+                "arxiv_primary_category": {
+                    "scheme": "http://arxiv.org/schemas/atom",
+                    "term": "cs.LG"
+                },
+                "author": "Reynold Cheng",
+                "author_detail": {
+                    "name": "Reynold Cheng"
+                },
+                "authors": [
+                    {
+                        "name": "Ye Liu"
+                    },
+                    {
+                        "name": "Xuelei Lin"
+                    },
+                    {
+                        "name": "Yejia Chen"
+                    },
+                    {
+                        "name": "Reynold Cheng"
+                    }
+                ],
+                "guidislink": true,
+                "id": "http://arxiv.org/abs/2405.12183v1",
+                "link": "http://arxiv.org/abs/2405.12183v1",
+                "links": [
+                    {
+                        "href": "http://arxiv.org/abs/2405.12183v1",
+                        "rel": "alternate",
+                        "type": "text/html"
+                    },
+                    {
+                        "href": "http://arxiv.org/pdf/2405.12183v1",
+                        "rel": "related",
+                        "title": "pdf",
+                        "type": "application/pdf"
+                    }
+                ],
+                "published": "2024-05-20T17:09:58Z",
+                "published_parsed": [
+                    2024,
+                    5,
+                    20,
+                    17,
+                    9,
+                    58,
+                    0,
+                    141,
+                    0
+                ],
+                "summary": "Current graph clustering methods emphasize individual node and edge con\nnections, while ignoring higher-order organization at the level of motif. Re\ncently, higher-order graph clustering approaches have been designed by motif\nbased hypergraphs. However, these approaches often suffer from hypergraph\nfragmentation issue seriously, which degrades the clustering performance\ngreatly. Moreover, real-world graphs usually contain diverse motifs, with nodes\nparticipating in multiple motifs. A key challenge is how to achieve precise\nclustering results by integrating information from multiple motifs at the node\nlevel. In this paper, we propose a multi-order graph clustering model (MOGC) to\nintegrate multiple higher-order structures and edge connections at node level.\nMOGC employs an adaptive weight learning mechanism to au tomatically adjust the\ncontributions of different motifs for each node. This not only tackles\nhypergraph fragmentation issue but enhances clustering accuracy. MOGC is\nefficiently solved by an alternating minimization algo rithm. Experiments on\nseven real-world datasets illustrate the effectiveness of MOGC.",
+                "summary_detail": {
+                    "base": "",
+                    "language": null,
+                    "type": "text/plain",
+                    "value": "Current graph clustering methods emphasize individual node and edge con\nnections, while ignoring higher-order organization at the level of motif. Re\ncently, higher-order graph clustering approaches have been designed by motif\nbased hypergraphs. However, these approaches often suffer from hypergraph\nfragmentation issue seriously, which degrades the clustering performance\ngreatly. Moreover, real-world graphs usually contain diverse motifs, with nodes\nparticipating in multiple motifs. A key challenge is how to achieve precise\nclustering results by integrating information from multiple motifs at the node\nlevel. In this paper, we propose a multi-order graph clustering model (MOGC) to\nintegrate multiple higher-order structures and edge connections at node level.\nMOGC employs an adaptive weight learning mechanism to au tomatically adjust the\ncontributions of different motifs for each node. This not only tackles\nhypergraph fragmentation issue but enhances clustering accuracy. MOGC is\nefficiently solved by an alternating minimization algo rithm. Experiments on\nseven real-world datasets illustrate the effectiveness of MOGC."
+                },
+                "tags": [
+                    {
+                        "label": null,
+                        "scheme": "http://arxiv.org/schemas/atom",
+                        "term": "cs.LG"
+                    },
+                    {
+                        "label": null,
+                        "scheme": "http://arxiv.org/schemas/atom",
+                        "term": "cs.AI"
+                    }
+                ],
+                "title": "Multi-order Graph Clustering with Adaptive Node-level Weight Learning",
+                "title_detail": {
+                    "base": "",
+                    "language": null,
+                    "type": "text/plain",
+                    "value": "Multi-order Graph Clustering with Adaptive Node-level Weight Learning"
+                },
+                "updated": "2024-05-20T17:09:58Z",
+                "updated_parsed": [
+                    2024,
+                    5,
+                    20,
+                    17,
+                    9,
+                    58,
+                    0,
+                    141,
+                    0
+                ]
+            },
+            "authors": [
+                "Ye Liu",
+                "Xuelei Lin",
+                "Yejia Chen",
+                "Reynold Cheng"
+            ],
+            "categories": [
+                "cs.LG",
+                "cs.AI"
+            ],
+            "comment": null,
+            "doi": null,
+            "entry_id": "http://arxiv.org/abs/2405.12183v1",
+            "journal_ref": null,
+            "links": [
+                "http://arxiv.org/abs/2405.12183v1",
+                "http://arxiv.org/pdf/2405.12183v1"
+            ],
+            "pdf_url": "http://arxiv.org/pdf/2405.12183v1",
+            "primary_category": "cs.LG",
+            "published": "2024-05-20 17:09:58+00:00",
+            "summary": "Current graph clustering methods emphasize individual node and edge con\nnections, while ignoring higher-order organization at the level of motif. Re\ncently, higher-order graph clustering approaches have been designed by motif\nbased hypergraphs. However, these approaches often suffer from hypergraph\nfragmentation issue seriously, which degrades the clustering performance\ngreatly. Moreover, real-world graphs usually contain diverse motifs, with nodes\nparticipating in multiple motifs. A key challenge is how to achieve precise\nclustering results by integrating information from multiple motifs at the node\nlevel. In this paper, we propose a multi-order graph clustering model (MOGC) to\nintegrate multiple higher-order structures and edge connections at node level.\nMOGC employs an adaptive weight learning mechanism to au tomatically adjust the\ncontributions of different motifs for each node. This not only tackles\nhypergraph fragmentation issue but enhances clustering accuracy. MOGC is\nefficiently solved by an alternating minimization algo rithm. Experiments on\nseven real-world datasets illustrate the effectiveness of MOGC.",
+            "title": "Multi-order Graph Clustering with Adaptive Node-level Weight Learning",
+            "updated": "2024-05-20 17:09:58+00:00"
+        },
+        "timestamp": "2024-05-21 15:18:49"
+    },
+    {
+        "assessment_obj": {
+            "component_grade_arr": [
+                {
+                    "1. Hook → Grab attention": true
+                },
+                {
+                    "2. Re-hook → Add curiosity": false
+                },
+                {
+                    "3. Lead → Why it's important": false
+                },
+                {
+                    "4. The rule of three → Powerful": true
+                },
+                {
+                    "5. Proof → Expertise adds a layer of trust. The technical how.": false
+                },
+                {
+                    "6. Body → The answer to your hook. Include reference to the source research title.": false
+                },
+                {
+                    "7. Listicles → Descending or ascending": false
+                },
+                {
+                    "8. Power-ending → Summary for impact": true
+                },
+                {
+                    "9. CTA/CTE → Invite your reader to engage": false
+                },
+                {
+                    "10. Hashtags → 3 relevant hashtags for SEO": false
+                }
+            ],
+            "engaging": true,
+            "factually_relevant": true,
+            "formated": false,
+            "is_short_content": 0.5,
+            "no_blacklist": true,
+            "no_emojis": false,
+            "no_signature": true,
+            "reference": false
+        },
+        "assessment_score": 0.64,
+        "compressed_paper": "🧬The research introduces a novel system that uses large language models (LLMs) to convert a problem stated in natural language into a semi-formal specification that an existing cognitive system can utilize for problem-solving and task execution.🧬",
+        "content": "⚡ Inject fresh life into cognitive systems: Large Language Models (LLMs) are here to deal with problem specifications!\n\nExperience the sheer force of LLMs and cognitive systems working together, shining a light into previously inaccessible corners of your problem spaces.\n\nVenture forth into startup terrain and witness this innovative approach taking shape. Distill intricate issues into tasks a machine can tackle, all thanks to the cutting-edge Problem Specification-as-a-Service (IPSaaS). Your head-scratchers are now tasks for our AI compadres:\n\n1. Pinpoint and equalize startup snags.\n2. Associate related components and fine-tune resources.\n3. Correlate issues with potential solutions, acclimatize for misstep management and rebound.\n\nCompelled already? Now, let's stir the pot a bit - it’s not only about defining the problems suitable for AI but about creating a shared lexicon, nurturing an environment where humans and AI coordinate and progress.\n\nMold your teams to articulate predicaments that tailor to an AI ecosystem. Foster unity, dual comprehension and abolish partitions between natural and synthetic thought process.\n\nZoom out: envision machines dealing with issues defined in a language we speak daily, sans the need for formal specification? Your AI squadron would participate in on-the-spot language comprehension, spry problem-solving, accommodating bona fide human issues.\n\nBreak free from the norm. We are on the threshold of a unique period of AI–human interaction that could redefine problem-solving.\n\n#AIModel #CognitiveSystems #LLMs",
+        "paper": {
+            "_raw": {
+                "arxiv_comment": "18 pages, Appendix. Submitted to Advances in Cognitive Systems 2024",
+                "arxiv_primary_category": {
+                    "scheme": "http://arxiv.org/schemas/atom",
+                    "term": "cs.AI"
+                },
+                "author": "John E. Laird",
+                "author_detail": {
+                    "name": "John E. Laird"
+                },
+                "authors": [
+                    {
+                        "name": "Robert E. Wray"
+                    },
+                    {
+                        "name": "James R. Kirk"
+                    },
+                    {
+                        "name": "John E. Laird"
+                    }
+                ],
+                "guidislink": true,
+                "id": "http://arxiv.org/abs/2405.12147v1",
+                "link": "http://arxiv.org/abs/2405.12147v1",
+                "links": [
+                    {
+                        "href": "http://arxiv.org/abs/2405.12147v1",
+                        "rel": "alternate",
+                        "type": "text/html"
+                    },
+                    {
+                        "href": "http://arxiv.org/pdf/2405.12147v1",
+                        "rel": "related",
+                        "title": "pdf",
+                        "type": "application/pdf"
+                    }
+                ],
+                "published": "2024-05-20T16:19:02Z",
+                "published_parsed": [
+                    2024,
+                    5,
+                    20,
+                    16,
+                    19,
+                    2,
+                    0,
+                    141,
+                    0
+                ],
+                "summary": "Cognitive systems generally require a human to translate a problem definition\ninto some specification that the cognitive system can use to attempt to solve\nthe problem or perform the task. In this paper, we illustrate that large\nlanguage models (LLMs) can be utilized to map a problem class, defined in\nnatural language, into a semi-formal specification that can then be utilized by\nan existing reasoning and learning system to solve instances from the problem\nclass. We present the design of LLM-enabled cognitive task analyst agent(s).\nImplemented with LLM agents, this system produces a definition of problem\nspaces for tasks specified in natural language. LLM prompts are derived from\nthe definition of problem spaces in the AI literature and general\nproblem-solving strategies (Polya's How to Solve It). A cognitive system can\nthen use the problem-space specification, applying domain-general problem\nsolving strategies (\"weak methods\" such as search), to solve multiple instances\nof problems from the problem class. This result, while preliminary, suggests\nthe potential for speeding cognitive systems research via disintermediation of\nproblem formulation while also retaining core capabilities of cognitive\nsystems, such as robust inference and online learning.",
+                "summary_detail": {
+                    "base": "",
+                    "language": null,
+                    "type": "text/plain",
+                    "value": "Cognitive systems generally require a human to translate a problem definition\ninto some specification that the cognitive system can use to attempt to solve\nthe problem or perform the task. In this paper, we illustrate that large\nlanguage models (LLMs) can be utilized to map a problem class, defined in\nnatural language, into a semi-formal specification that can then be utilized by\nan existing reasoning and learning system to solve instances from the problem\nclass. We present the design of LLM-enabled cognitive task analyst agent(s).\nImplemented with LLM agents, this system produces a definition of problem\nspaces for tasks specified in natural language. LLM prompts are derived from\nthe definition of problem spaces in the AI literature and general\nproblem-solving strategies (Polya's How to Solve It). A cognitive system can\nthen use the problem-space specification, applying domain-general problem\nsolving strategies (\"weak methods\" such as search), to solve multiple instances\nof problems from the problem class. This result, while preliminary, suggests\nthe potential for speeding cognitive systems research via disintermediation of\nproblem formulation while also retaining core capabilities of cognitive\nsystems, such as robust inference and online learning."
+                },
+                "tags": [
+                    {
+                        "label": null,
+                        "scheme": "http://arxiv.org/schemas/atom",
+                        "term": "cs.AI"
+                    },
+                    {
+                        "label": null,
+                        "scheme": "http://arxiv.org/schemas/atom",
+                        "term": "cs.CL"
+                    },
+                    {
+                        "label": null,
+                        "scheme": "http://arxiv.org/schemas/atom",
+                        "term": "I.2.11; I.2.7"
+                    }
+                ],
+                "title": "Eliciting Problem Specifications via Large Language Models",
+                "title_detail": {
+                    "base": "",
+                    "language": null,
+                    "type": "text/plain",
+                    "value": "Eliciting Problem Specifications via Large Language Models"
+                },
+                "updated": "2024-05-20T16:19:02Z",
+                "updated_parsed": [
+                    2024,
+                    5,
+                    20,
+                    16,
+                    19,
+                    2,
+                    0,
+                    141,
+                    0
+                ]
+            },
+            "authors": [
+                "Robert E. Wray",
+                "James R. Kirk",
+                "John E. Laird"
+            ],
+            "categories": [
+                "cs.AI",
+                "cs.CL",
+                "I.2.11; I.2.7"
+            ],
+            "comment": "18 pages, Appendix. Submitted to Advances in Cognitive Systems 2024",
+            "doi": null,
+            "entry_id": "http://arxiv.org/abs/2405.12147v1",
+            "journal_ref": null,
+            "links": [
+                "http://arxiv.org/abs/2405.12147v1",
+                "http://arxiv.org/pdf/2405.12147v1"
+            ],
+            "pdf_url": "http://arxiv.org/pdf/2405.12147v1",
+            "primary_category": "cs.AI",
+            "published": "2024-05-20 16:19:02+00:00",
+            "summary": "Cognitive systems generally require a human to translate a problem definition\ninto some specification that the cognitive system can use to attempt to solve\nthe problem or perform the task. In this paper, we illustrate that large\nlanguage models (LLMs) can be utilized to map a problem class, defined in\nnatural language, into a semi-formal specification that can then be utilized by\nan existing reasoning and learning system to solve instances from the problem\nclass. We present the design of LLM-enabled cognitive task analyst agent(s).\nImplemented with LLM agents, this system produces a definition of problem\nspaces for tasks specified in natural language. LLM prompts are derived from\nthe definition of problem spaces in the AI literature and general\nproblem-solving strategies (Polya's How to Solve It). A cognitive system can\nthen use the problem-space specification, applying domain-general problem\nsolving strategies (\"weak methods\" such as search), to solve multiple instances\nof problems from the problem class. This result, while preliminary, suggests\nthe potential for speeding cognitive systems research via disintermediation of\nproblem formulation while also retaining core capabilities of cognitive\nsystems, such as robust inference and online learning.",
+            "title": "Eliciting Problem Specifications via Large Language Models",
+            "updated": "2024-05-20 16:19:02+00:00"
+        },
+        "timestamp": "2024-05-21 15:18:49"
+    },
+    {
+        "assessment_obj": {
+            "component_grade_arr": [
+                {
+                    "1. Hook → Grab attention": true
+                },
+                {
+                    "2. Re-hook → Add curiosity": false
+                },
+                {
+                    "3. Lead → Why it's important": true
+                },
+                {
+                    "4. The rule of three → Powerful": false
+                },
+                {
+                    "5. Proof → Expertise adds a layer of trust. The technical how.": false
+                },
+                {
+                    "6. Body → The answer to your hook. Include reference to the source research title.": false
+                },
+                {
+                    "7. Listicles → Descending or ascending": false
+                },
+                {
+                    "8. Power-ending → Summary for impact": false
+                },
+                {
+                    "9. CTA/CTE → Invite your reader to engage": false
+                },
+                {
+                    "10. Hashtags → 3 relevant hashtags for SEO": false
+                }
+            ],
+            "engaging": true,
+            "factually_relevant": false,
+            "formated": false,
+            "is_short_content": 1,
+            "no_blacklist": true,
+            "no_emojis": false,
+            "no_signature": true,
+            "reference": true
+        },
+        "assessment_score": 0.72,
+        "compressed_paper": "🧬\"The research illustrates that Large Language Models (LLMs) not only exhibit reasoning processes, but they also demonstrate metacognitive skills by accurately assigning and applying skill labels to mathematical problems, significantly improving problem-solving accuracy.\"🧬",
+        "content": "AI solutions are scaling heights—you ready?\n\nStraight off the press: \"Metacognitive Capabilities of LLMs: An Exploration in Mathematical Problem Solving\". But it's much more than science—it's an entryway to a fresh corporate narrative.\n\nEnvision a startup, 𝙈𝙚𝙩𝙖𝙎𝙤𝙡𝙫𝙚𝙍™, tapping into these capabilities:\n1️⃣ GPT-4 as an AI-Powered Advisor—navigating you through tech hurdles.\n2️⃣ Hosting Intelligent Tutoring and Training, with problem labels enhancing the learning journey.\n3️⃣ Bolstering decision-making, giving business leaders insightful foresight for future plotting.\n\nBut let's flip the script:\n\nWhat if humans become the teachers—the AI our pupil? A learning loop, where LLM picks up human patterns, logic, and over time, discovers overlooked domains.\n\nAnd if we're not just solving issues but inciting a maelstrom of 'conceptual chaos'? A surge of creative potential where value blooms from the chaos of thoughts, not simply neatly arranged solutions?\n\nWe have to question the trustworthiness of the LLM —with privacy, job certainty, and ethical considerations in play. It's key to remember that the LLM is reasoning strictly through statistics, absent of intuition or self-awareness.\n\nWelcome to an era where dreams meld with reality—ushering in waves of innovation and challenges.\n\nYour turn - which of these outlooks resonates? The startup or the flip? 🎯\n\n#AIEvolution #MetacognitiveLLMs #BusinessInnovation",
+        "paper": {
+            "_raw": {
+                "arxiv_comment": "Preprint. Under review",
+                "arxiv_primary_category": {
+                    "scheme": "http://arxiv.org/schemas/atom",
+                    "term": "cs.AI"
+                },
+                "author": "Sanjeev Arora",
+                "author_detail": {
+                    "name": "Sanjeev Arora"
+                },
+                "authors": [
+                    {
+                        "name": "Aniket Didolkar"
+                    },
+                    {
+                        "name": "Anirudh Goyal"
+                    },
+                    {
+                        "name": "Nan Rosemary Ke"
+                    },
+                    {
+                        "name": "Siyuan Guo"
+                    },
+                    {
+                        "name": "Michal Valko"
+                    },
+                    {
+                        "name": "Timothy Lillicrap"
+                    },
+                    {
+                        "name": "Danilo Rezende"
+                    },
+                    {
+                        "name": "Yoshua Bengio"
+                    },
+                    {
+                        "name": "Michael Mozer"
+                    },
+                    {
+                        "name": "Sanjeev Arora"
+                    }
+                ],
+                "guidislink": true,
+                "id": "http://arxiv.org/abs/2405.12205v1",
+                "link": "http://arxiv.org/abs/2405.12205v1",
+                "links": [
+                    {
+                        "href": "http://arxiv.org/abs/2405.12205v1",
+                        "rel": "alternate",
+                        "type": "text/html"
+                    },
+                    {
+                        "href": "http://arxiv.org/pdf/2405.12205v1",
+                        "rel": "related",
+                        "title": "pdf",
+                        "type": "application/pdf"
+                    }
+                ],
+                "published": "2024-05-20T17:45:26Z",
+                "published_parsed": [
+                    2024,
+                    5,
+                    20,
+                    17,
+                    45,
+                    26,
+                    0,
+                    141,
+                    0
+                ],
+                "summary": "Metacognitive knowledge refers to humans' intuitive knowledge of their own\nthinking and reasoning processes. Today's best LLMs clearly possess some\nreasoning processes. The paper gives evidence that they also have metacognitive\nknowledge, including ability to name skills and procedures to apply given a\ntask. We explore this primarily in context of math reasoning, developing a\nprompt-guided interaction procedure to get a powerful LLM to assign sensible\nskill labels to math questions, followed by having it perform semantic\nclustering to obtain coarser families of skill labels. These coarse skill\nlabels look interpretable to humans.\n  To validate that these skill labels are meaningful and relevant to the LLM's\nreasoning processes we perform the following experiments. (a) We ask GPT-4 to\nassign skill labels to training questions in math datasets GSM8K and MATH. (b)\nWhen using an LLM to solve the test questions, we present it with the full list\nof skill labels and ask it to identify the skill needed. Then it is presented\nwith randomly selected exemplar solved questions associated with that skill\nlabel. This improves accuracy on GSM8k and MATH for several strong LLMs,\nincluding code-assisted models. The methodology presented is domain-agnostic,\neven though this article applies it to math problems.",
+                "summary_detail": {
+                    "base": "",
+                    "language": null,
+                    "type": "text/plain",
+                    "value": "Metacognitive knowledge refers to humans' intuitive knowledge of their own\nthinking and reasoning processes. Today's best LLMs clearly possess some\nreasoning processes. The paper gives evidence that they also have metacognitive\nknowledge, including ability to name skills and procedures to apply given a\ntask. We explore this primarily in context of math reasoning, developing a\nprompt-guided interaction procedure to get a powerful LLM to assign sensible\nskill labels to math questions, followed by having it perform semantic\nclustering to obtain coarser families of skill labels. These coarse skill\nlabels look interpretable to humans.\n  To validate that these skill labels are meaningful and relevant to the LLM's\nreasoning processes we perform the following experiments. (a) We ask GPT-4 to\nassign skill labels to training questions in math datasets GSM8K and MATH. (b)\nWhen using an LLM to solve the test questions, we present it with the full list\nof skill labels and ask it to identify the skill needed. Then it is presented\nwith randomly selected exemplar solved questions associated with that skill\nlabel. This improves accuracy on GSM8k and MATH for several strong LLMs,\nincluding code-assisted models. The methodology presented is domain-agnostic,\neven though this article applies it to math problems."
+                },
+                "tags": [
+                    {
+                        "label": null,
+                        "scheme": "http://arxiv.org/schemas/atom",
+                        "term": "cs.AI"
+                    },
+                    {
+                        "label": null,
+                        "scheme": "http://arxiv.org/schemas/atom",
+                        "term": "cs.LG"
+                    }
+                ],
+                "title": "Metacognitive Capabilities of LLMs: An Exploration in Mathematical\n  Problem Solving",
+                "title_detail": {
+                    "base": "",
+                    "language": null,
+                    "type": "text/plain",
+                    "value": "Metacognitive Capabilities of LLMs: An Exploration in Mathematical\n  Problem Solving"
+                },
+                "updated": "2024-05-20T17:45:26Z",
+                "updated_parsed": [
+                    2024,
+                    5,
+                    20,
+                    17,
+                    45,
+                    26,
+                    0,
+                    141,
+                    0
+                ]
+            },
+            "authors": [
+                "Aniket Didolkar",
+                "Anirudh Goyal",
+                "Nan Rosemary Ke",
+                "Siyuan Guo",
+                "Michal Valko",
+                "Timothy Lillicrap",
+                "Danilo Rezende",
+                "Yoshua Bengio",
+                "Michael Mozer",
+                "Sanjeev Arora"
+            ],
+            "categories": [
+                "cs.AI",
+                "cs.LG"
+            ],
+            "comment": "Preprint. Under review",
+            "doi": null,
+            "entry_id": "http://arxiv.org/abs/2405.12205v1",
+            "journal_ref": null,
+            "links": [
+                "http://arxiv.org/abs/2405.12205v1",
+                "http://arxiv.org/pdf/2405.12205v1"
+            ],
+            "pdf_url": "http://arxiv.org/pdf/2405.12205v1",
+            "primary_category": "cs.AI",
+            "published": "2024-05-20 17:45:26+00:00",
+            "summary": "Metacognitive knowledge refers to humans' intuitive knowledge of their own\nthinking and reasoning processes. Today's best LLMs clearly possess some\nreasoning processes. The paper gives evidence that they also have metacognitive\nknowledge, including ability to name skills and procedures to apply given a\ntask. We explore this primarily in context of math reasoning, developing a\nprompt-guided interaction procedure to get a powerful LLM to assign sensible\nskill labels to math questions, followed by having it perform semantic\nclustering to obtain coarser families of skill labels. These coarse skill\nlabels look interpretable to humans.\n  To validate that these skill labels are meaningful and relevant to the LLM's\nreasoning processes we perform the following experiments. (a) We ask GPT-4 to\nassign skill labels to training questions in math datasets GSM8K and MATH. (b)\nWhen using an LLM to solve the test questions, we present it with the full list\nof skill labels and ask it to identify the skill needed. Then it is presented\nwith randomly selected exemplar solved questions associated with that skill\nlabel. This improves accuracy on GSM8k and MATH for several strong LLMs,\nincluding code-assisted models. The methodology presented is domain-agnostic,\neven though this article applies it to math problems.",
+            "title": "Metacognitive Capabilities of LLMs: An Exploration in Mathematical Problem Solving",
+            "updated": "2024-05-20 17:45:26+00:00"
+        },
+        "timestamp": "2024-05-21 15:53:31"
+    },
+    {
+        "assessment_obj": {
+            "component_grade_arr": [
+                {
+                    "1. Hook → Grab attention": true
+                },
+                {
+                    "2. Re-hook → Add curiosity": true
+                },
+                {
+                    "3. Lead → Why it's important": true
+                },
+                {
+                    "4. The rule of three → Powerful": false
+                },
+                {
+                    "5. Proof → Expertise adds a layer of trust. The technical how.": true
+                },
+                {
+                    "6. Body → The answer to your hook. Include reference to the source research title.": true
+                },
+                {
+                    "7. Listicles → Descending or ascending": false
+                },
+                {
+                    "8. Power-ending → Summary for impact": false
+                },
+                {
+                    "9. CTA/CTE → Invite your reader to engage": false
+                },
+                {
+                    "10. Hashtags → 3 relevant hashtags for SEO": false
+                }
+            ],
+            "engaging": true,
+            "factually_relevant": true,
+            "formated": false,
+            "is_short_content": 0.5,
+            "no_blacklist": true,
+            "no_emojis": true,
+            "no_signature": true,
+            "reference": true
+        },
+        "assessment_score": 0.76,
+        "compressed_paper": "🧬In the research paper, \"Multi-order Graph Clustering with Adaptive Node-level Weight Learning,\" a novel model, MOGC, is introduced that integrates multiple higher-order structures and edge connections at the node level. It utilizes an adaptive weight learning mechanism that auto-adjusts the contributions of different motifs for each node, resolving hypergraph fragmentation issues and enhancing clustering accuracy.🧬",
+        "content": "Prepare to journey into data clusters' heart. The 'new trendsetter' is none other than the novel model introduced in the research \"Multi-order Graph Clustering with Adaptive Node-level Weight Learning.\" Welcome MOGC, a story of adaptive learning, blending a variety of structures at node level, aiming to fine-tune how we perceive and manipulate data.\n\nArmed with flexibility and accuracy, MOGC signals a new trajectory for tech realms swimming in huge data, think social media and eCommerce. The game changer? It's unique knack to flexibly modulate the importance of diverse motifs for each node, hence enhancing data analyses and feature extraction.\n\nEnvision the potential:\n1. Refined product strategy in data startups.\n2. Customized user experiences.\n3. Comprehensive recommendation systems for eCommerce businesses.\n4. Effective predictive modeling.\n\nShift your gaze and picture MOGC in a compact data scenario - a traditional family business with deep-rooted customer insights. 'Misuse' or smart strategy adjustment?\n\nYet here's a twist – what if focusing on a single or fewer motifs hits the bull's eye in certain situations? Think companies driven by unshakeable principles - like Uber connecting drivers and passengers. Might a less diverse but sharply focused algorithm provide superior insights?\n\nAs an industry expert says, \"MOGC's adaptive learning and blending capabilities hold great promise in driving detailed insights across diverse data scenarios – hefty or petite.\"\n\nAs we wrap up this intriguing voyage, I want to hear from you. Could MOGC's algorithm's strength morph into its constraint? I invite your thoughtful discussions in this data-driven shifting landscape.\n\n#DeepLearning #DataClustering #AIResearch",
+        "paper": {
+            "_raw": {
+                "arxiv_primary_category": {
+                    "scheme": "http://arxiv.org/schemas/atom",
+                    "term": "cs.LG"
+                },
+                "author": "Reynold Cheng",
+                "author_detail": {
+                    "name": "Reynold Cheng"
+                },
+                "authors": [
+                    {
+                        "name": "Ye Liu"
+                    },
+                    {
+                        "name": "Xuelei Lin"
+                    },
+                    {
+                        "name": "Yejia Chen"
+                    },
+                    {
+                        "name": "Reynold Cheng"
+                    }
+                ],
+                "guidislink": true,
+                "id": "http://arxiv.org/abs/2405.12183v1",
+                "link": "http://arxiv.org/abs/2405.12183v1",
+                "links": [
+                    {
+                        "href": "http://arxiv.org/abs/2405.12183v1",
+                        "rel": "alternate",
+                        "type": "text/html"
+                    },
+                    {
+                        "href": "http://arxiv.org/pdf/2405.12183v1",
+                        "rel": "related",
+                        "title": "pdf",
+                        "type": "application/pdf"
+                    }
+                ],
+                "published": "2024-05-20T17:09:58Z",
+                "published_parsed": [
+                    2024,
+                    5,
+                    20,
+                    17,
+                    9,
+                    58,
+                    0,
+                    141,
+                    0
+                ],
+                "summary": "Current graph clustering methods emphasize individual node and edge con\nnections, while ignoring higher-order organization at the level of motif. Re\ncently, higher-order graph clustering approaches have been designed by motif\nbased hypergraphs. However, these approaches often suffer from hypergraph\nfragmentation issue seriously, which degrades the clustering performance\ngreatly. Moreover, real-world graphs usually contain diverse motifs, with nodes\nparticipating in multiple motifs. A key challenge is how to achieve precise\nclustering results by integrating information from multiple motifs at the node\nlevel. In this paper, we propose a multi-order graph clustering model (MOGC) to\nintegrate multiple higher-order structures and edge connections at node level.\nMOGC employs an adaptive weight learning mechanism to au tomatically adjust the\ncontributions of different motifs for each node. This not only tackles\nhypergraph fragmentation issue but enhances clustering accuracy. MOGC is\nefficiently solved by an alternating minimization algo rithm. Experiments on\nseven real-world datasets illustrate the effectiveness of MOGC.",
+                "summary_detail": {
+                    "base": "",
+                    "language": null,
+                    "type": "text/plain",
+                    "value": "Current graph clustering methods emphasize individual node and edge con\nnections, while ignoring higher-order organization at the level of motif. Re\ncently, higher-order graph clustering approaches have been designed by motif\nbased hypergraphs. However, these approaches often suffer from hypergraph\nfragmentation issue seriously, which degrades the clustering performance\ngreatly. Moreover, real-world graphs usually contain diverse motifs, with nodes\nparticipating in multiple motifs. A key challenge is how to achieve precise\nclustering results by integrating information from multiple motifs at the node\nlevel. In this paper, we propose a multi-order graph clustering model (MOGC) to\nintegrate multiple higher-order structures and edge connections at node level.\nMOGC employs an adaptive weight learning mechanism to au tomatically adjust the\ncontributions of different motifs for each node. This not only tackles\nhypergraph fragmentation issue but enhances clustering accuracy. MOGC is\nefficiently solved by an alternating minimization algo rithm. Experiments on\nseven real-world datasets illustrate the effectiveness of MOGC."
+                },
+                "tags": [
+                    {
+                        "label": null,
+                        "scheme": "http://arxiv.org/schemas/atom",
+                        "term": "cs.LG"
+                    },
+                    {
+                        "label": null,
+                        "scheme": "http://arxiv.org/schemas/atom",
+                        "term": "cs.AI"
+                    }
+                ],
+                "title": "Multi-order Graph Clustering with Adaptive Node-level Weight Learning",
+                "title_detail": {
+                    "base": "",
+                    "language": null,
+                    "type": "text/plain",
+                    "value": "Multi-order Graph Clustering with Adaptive Node-level Weight Learning"
+                },
+                "updated": "2024-05-20T17:09:58Z",
+                "updated_parsed": [
+                    2024,
+                    5,
+                    20,
+                    17,
+                    9,
+                    58,
+                    0,
+                    141,
+                    0
+                ]
+            },
+            "authors": [
+                "Ye Liu",
+                "Xuelei Lin",
+                "Yejia Chen",
+                "Reynold Cheng"
+            ],
+            "categories": [
+                "cs.LG",
+                "cs.AI"
+            ],
+            "comment": null,
+            "doi": null,
+            "entry_id": "http://arxiv.org/abs/2405.12183v1",
+            "journal_ref": null,
+            "links": [
+                "http://arxiv.org/abs/2405.12183v1",
+                "http://arxiv.org/pdf/2405.12183v1"
+            ],
+            "pdf_url": "http://arxiv.org/pdf/2405.12183v1",
+            "primary_category": "cs.LG",
+            "published": "2024-05-20 17:09:58+00:00",
+            "summary": "Current graph clustering methods emphasize individual node and edge con\nnections, while ignoring higher-order organization at the level of motif. Re\ncently, higher-order graph clustering approaches have been designed by motif\nbased hypergraphs. However, these approaches often suffer from hypergraph\nfragmentation issue seriously, which degrades the clustering performance\ngreatly. Moreover, real-world graphs usually contain diverse motifs, with nodes\nparticipating in multiple motifs. A key challenge is how to achieve precise\nclustering results by integrating information from multiple motifs at the node\nlevel. In this paper, we propose a multi-order graph clustering model (MOGC) to\nintegrate multiple higher-order structures and edge connections at node level.\nMOGC employs an adaptive weight learning mechanism to au tomatically adjust the\ncontributions of different motifs for each node. This not only tackles\nhypergraph fragmentation issue but enhances clustering accuracy. MOGC is\nefficiently solved by an alternating minimization algo rithm. Experiments on\nseven real-world datasets illustrate the effectiveness of MOGC.",
+            "title": "Multi-order Graph Clustering with Adaptive Node-level Weight Learning",
+            "updated": "2024-05-20 17:09:58+00:00"
+        },
+        "timestamp": "2024-05-21 15:53:31"
+    },
+    {
+        "assessment_obj": {
+            "component_grade_arr": [
+                {
+                    "1. Hook → Grab attention": true
+                },
+                {
+                    "2. Re-hook → Add curiosity": true
+                },
+                {
+                    "3. Lead → Why it's important": true
+                },
+                {
+                    "4. The rule of three → Powerful": true
+                },
+                {
+                    "5. Proof → Expertise adds a layer of trust. The technical how.": true
+                },
+                {
+                    "6. Body → The answer to your hook. Include reference to the source research title.": true
+                },
+                {
+                    "7. Listicles → Descending or ascending": false
+                },
+                {
+                    "8. Power-ending → Summary for impact": true
+                },
+                {
+                    "9. CTA/CTE → Invite your reader to engage": false
+                },
+                {
+                    "10. Hashtags → 3 relevant hashtags for SEO": false
+                }
+            ],
+            "engaging": true,
+            "factually_relevant": false,
+            "formated": false,
+            "is_short_content": 1,
+            "no_blacklist": true,
+            "no_emojis": false,
+            "no_signature": true,
+            "reference": false
+        },
+        "assessment_score": 0.78,
+        "compressed_paper": "🧬\"PLEIADES\", a novel modeling class, constructs temporal convolution kernels from orthogonal polynomial basis functions for real-time spatiotemporal classification and event-based data detection, optimizing sample rates and network discretization step-size without added finetuning.🧬",
+        "content": "Tap into real-time genomics, prompt in-depth diagnoses. Consider PLEIADES, armed with orthogonal polynomial basis functions, automating trading platforms, enhancing surveillance from CCTVs, or enabling smart cars to convert immediate surroundings and road conditions into better commute decisions.✨\n\nThe PLEIADES modelling class has the power to tailor traditional operations by creating temporal convolution kernels utilizing orthogonal polynomials. Efficiency and speed might be tempting, but ponder on a shift in perspective.💡\n\nInstead of constantly racing ahead, consider slowing down.🛑 Behind the hustle and bustle of rapid data processing hides thoughtful deliberation. By allowing our data to unfold over structured intervals, we lay the foundation for robust analysis and deeper decision-making.⚖️\n\nWhile speed, space-saving, and efficiency naturally grab attention, think about putting these aspects on a back seat. Picture a world of technology that celebrates in-depth data examination, prompting analysis that can lead to socio-economic impacts.🌈\n\nSure, new technologies can solve old problems, but can time-honoured wisdom solve today's challenges too? Worth a thought.🤔\n\nThinking about how PLEIADES can reimagine your operations? Let's dive into the potential insight this research offers.\n\n#PLEIADES #InnovativeTech #TemporalConvolution",
+        "paper": {
+            "_raw": {
+                "arxiv_comment": "15 pages, 3 figures",
+                "arxiv_primary_category": {
+                    "scheme": "http://arxiv.org/schemas/atom",
+                    "term": "cs.LG"
+                },
+                "author": "Olivier Coenen",
+                "author_detail": {
+                    "name": "Olivier Coenen"
+                },
+                "authors": [
+                    {
+                        "name": "Yan Ru Pei"
+                    },
+                    {
+                        "name": "Olivier Coenen"
+                    }
+                ],
+                "guidislink": true,
+                "id": "http://arxiv.org/abs/2405.12179v1",
+                "link": "http://arxiv.org/abs/2405.12179v1",
+                "links": [
+                    {
+                        "href": "http://arxiv.org/abs/2405.12179v1",
+                        "rel": "alternate",
+                        "type": "text/html"
+                    },
+                    {
+                        "href": "http://arxiv.org/pdf/2405.12179v1",
+                        "rel": "related",
+                        "title": "pdf",
+                        "type": "application/pdf"
+                    }
+                ],
+                "published": "2024-05-20T17:06:24Z",
+                "published_parsed": [
+                    2024,
+                    5,
+                    20,
+                    17,
+                    6,
+                    24,
+                    0,
+                    141,
+                    0
+                ],
+                "summary": "We introduce a class of models named PLEIADES (PoLynomial Expansion In\nAdaptive Distributed Event-based Systems), which contains temporal convolution\nkernels generated from orthogonal polynomial basis functions. We focus on\ninterfacing these networks with event-based data to perform online\nspatiotemporal classification and detection with low latency. By virtue of\nusing structured temporal kernels and event-based data, we have the freedom to\nvary the sample rate of the data along with the discretization step-size of the\nnetwork without additional finetuning. We experimented with three event-based\nbenchmarks and obtained state-of-the-art results on all three by large margins\nwith significantly smaller memory and compute costs. We achieved: 1) 99.59%\naccuracy with 192K parameters on the DVS128 hand gesture recognition dataset\nand 100% with a small additional output filter; 2) 99.58% test accuracy with\n277K parameters on the AIS 2024 eye tracking challenge; and 3) 0.556 mAP with\n576k parameters on the PROPHESEE 1 Megapixel Automotive Detection Dataset.",
+                "summary_detail": {
+                    "base": "",
+                    "language": null,
+                    "type": "text/plain",
+                    "value": "We introduce a class of models named PLEIADES (PoLynomial Expansion In\nAdaptive Distributed Event-based Systems), which contains temporal convolution\nkernels generated from orthogonal polynomial basis functions. We focus on\ninterfacing these networks with event-based data to perform online\nspatiotemporal classification and detection with low latency. By virtue of\nusing structured temporal kernels and event-based data, we have the freedom to\nvary the sample rate of the data along with the discretization step-size of the\nnetwork without additional finetuning. We experimented with three event-based\nbenchmarks and obtained state-of-the-art results on all three by large margins\nwith significantly smaller memory and compute costs. We achieved: 1) 99.59%\naccuracy with 192K parameters on the DVS128 hand gesture recognition dataset\nand 100% with a small additional output filter; 2) 99.58% test accuracy with\n277K parameters on the AIS 2024 eye tracking challenge; and 3) 0.556 mAP with\n576k parameters on the PROPHESEE 1 Megapixel Automotive Detection Dataset."
+                },
+                "tags": [
+                    {
+                        "label": null,
+                        "scheme": "http://arxiv.org/schemas/atom",
+                        "term": "cs.LG"
+                    },
+                    {
+                        "label": null,
+                        "scheme": "http://arxiv.org/schemas/atom",
+                        "term": "cs.AI"
+                    }
+                ],
+                "title": "Building Temporal Kernels with Orthogonal Polynomials",
+                "title_detail": {
+                    "base": "",
+                    "language": null,
+                    "type": "text/plain",
+                    "value": "Building Temporal Kernels with Orthogonal Polynomials"
+                },
+                "updated": "2024-05-20T17:06:24Z",
+                "updated_parsed": [
+                    2024,
+                    5,
+                    20,
+                    17,
+                    6,
+                    24,
+                    0,
+                    141,
+                    0
+                ]
+            },
+            "authors": [
+                "Yan Ru Pei",
+                "Olivier Coenen"
+            ],
+            "categories": [
+                "cs.LG",
+                "cs.AI"
+            ],
+            "comment": "15 pages, 3 figures",
+            "doi": null,
+            "entry_id": "http://arxiv.org/abs/2405.12179v1",
+            "journal_ref": null,
+            "links": [
+                "http://arxiv.org/abs/2405.12179v1",
+                "http://arxiv.org/pdf/2405.12179v1"
+            ],
+            "pdf_url": "http://arxiv.org/pdf/2405.12179v1",
+            "primary_category": "cs.LG",
+            "published": "2024-05-20 17:06:24+00:00",
+            "summary": "We introduce a class of models named PLEIADES (PoLynomial Expansion In\nAdaptive Distributed Event-based Systems), which contains temporal convolution\nkernels generated from orthogonal polynomial basis functions. We focus on\ninterfacing these networks with event-based data to perform online\nspatiotemporal classification and detection with low latency. By virtue of\nusing structured temporal kernels and event-based data, we have the freedom to\nvary the sample rate of the data along with the discretization step-size of the\nnetwork without additional finetuning. We experimented with three event-based\nbenchmarks and obtained state-of-the-art results on all three by large margins\nwith significantly smaller memory and compute costs. We achieved: 1) 99.59%\naccuracy with 192K parameters on the DVS128 hand gesture recognition dataset\nand 100% with a small additional output filter; 2) 99.58% test accuracy with\n277K parameters on the AIS 2024 eye tracking challenge; and 3) 0.556 mAP with\n576k parameters on the PROPHESEE 1 Megapixel Automotive Detection Dataset.",
+            "title": "Building Temporal Kernels with Orthogonal Polynomials",
+            "updated": "2024-05-20 17:06:24+00:00"
+        },
+        "timestamp": "2024-05-21 15:53:31"
+    },
+    {
+        "assessment_obj": {
+            "component_grade_arr": [
+                {
+                    "1. Hook → Grab attention": true
+                },
+                {
+                    "2. Re-hook → Add curiosity": true
+                },
+                {
+                    "3. Lead → Why it's important": true
+                },
+                {
+                    "4. The rule of three → Powerful": false
+                },
+                {
+                    "5. Proof → Expertise adds a layer of trust. The technical how.": true
+                },
+                {
+                    "6. Body → The answer to your hook. Include reference to the source research title.": false
+                },
+                {
+                    "7. Listicles → Descending or ascending": false
+                },
+                {
+                    "8. Power-ending → Summary for impact": false
+                },
+                {
+                    "9. CTA/CTE → Invite your reader to engage": true
+                },
+                {
+                    "10. Hashtags → 3 relevant hashtags for SEO": true
+                }
+            ],
+            "engaging": true,
+            "factually_relevant": false,
+            "formated": false,
+            "is_short_content": 0.5,
+            "no_blacklist": true,
+            "no_emojis": false,
+            "no_signature": true,
+            "reference": true
+        },
+        "assessment_score": 0.7,
+        "compressed_paper": "🧬\"Fennec\" is a novel framework leveraged for expanding fine-grained evaluation and correction of large language models, employing branching to dissect evaluation into finer components and bridging for comprehensive task coverage, outperforming larger models while approaching GPT-4 capabilities.🧬",
+        "content": "🔮Discover \"Fennec,\" - with all the crafty adaptability of its desert fox namesake. This unique language model framework stands apart, showcasing precise evaluation and correction across large-scale language models, ingeniously branching out to ensure comprehensive task coverage.🔮\n\nNow, ponder on Fennec's business potential. Picture an AI-as-a-service application across industries--healthcare, finance, e-commerce, and more. The real-world implications? Chatbots interacting more naturally, AI assistants personalizing better, superior content generation, more profound sentiment analysis and AI-driven recommendation systems responding with precision. \n\nAnd then comes a creative counterpoint, a fresh outlook. While AI aims to perfect human talents, how about humans refining AI models using our unique empathetic and contextual understanding? Not all progress is grounded in more data and sophisticated evaluation models. Complexity calls for comprehensive solutions.\n\nIn this context, one could look at an AI tool engineered specifically for AI developers and researchers—a catalyst priming the development process and fueling strides in AI progression.\n\nHowever, every stride brings responsibility. As we explore Fennec's potential, we must also consider the challenges. How can we ensure that AI, evaluated through Fennec, adheres to our principles, maintaining an ethical compass despite its advanced comprehension?\n\nIn essence, Fennec presents tremendous and thrilling possibilities. Yet, as we unravel its potential, we must also be wary of potential pitfalls, advancing towards a more seamless, responsible AI journey.\n\nEager to hear your thoughts and perspectives on Fennec! Indulge in the dialogue in the comments below.\n\n##Fennec #NLP #EthicalAI #FutureAI",
+        "paper": {
+            "_raw": {
+                "arxiv_primary_category": {
+                    "scheme": "http://arxiv.org/schemas/atom",
+                    "term": "cs.CL"
+                },
+                "author": "Min Zhang",
+                "author_detail": {
+                    "name": "Min Zhang"
+                },
+                "authors": [
+                    {
+                        "name": "Xiaobo Liang"
+                    },
+                    {
+                        "name": "Haoke Zhang"
+                    },
+                    {
+                        "name": "Helan hu"
+                    },
+                    {
+                        "name": "Juntao Li"
+                    },
+                    {
+                        "name": "Jun Xu"
+                    },
+                    {
+                        "name": "Min Zhang"
+                    }
+                ],
+                "guidislink": true,
+                "id": "http://arxiv.org/abs/2405.12163v1",
+                "link": "http://arxiv.org/abs/2405.12163v1",
+                "links": [
+                    {
+                        "href": "http://arxiv.org/abs/2405.12163v1",
+                        "rel": "alternate",
+                        "type": "text/html"
+                    },
+                    {
+                        "href": "http://arxiv.org/pdf/2405.12163v1",
+                        "rel": "related",
+                        "title": "pdf",
+                        "type": "application/pdf"
+                    }
+                ],
+                "published": "2024-05-20T16:47:22Z",
+                "published_parsed": [
+                    2024,
+                    5,
+                    20,
+                    16,
+                    47,
+                    22,
+                    0,
+                    141,
+                    0
+                ],
+                "summary": "The rapid advancement of large language models has given rise to a plethora\nof applications across a myriad of real-world tasks, mainly centered on\naligning with human intent. However, the complexities inherent in human intent\nnecessitate a dependence on labor-intensive and time-consuming human\nevaluation. To alleviate this constraint, we delve into the paradigm of\nemploying open-source large language models as evaluators, aligning with the\nprevailing trend of utilizing GPT-4. Particularly, we present a step-by-step\nevaluation framework: \\textbf{Fennec}, capable of \\textbf{F}ine-grained\n\\textbf{E}valuatio\\textbf{N} and correctio\\textbf{N} \\textbf{E}xtended through\nbran\\textbf{C}hing and bridging. Specifically, the branching operation dissects\nthe evaluation task into various dimensions and granularities, thereby\nalleviating the challenges associated with evaluation. Concurrently, the\nbridging operation amalgamates diverse training datasets, augmenting the\nvariety of evaluation tasks. In experimental trials, our 7B model consistently\noutperforms open-source larger-scale evaluation models across various widely\nadopted benchmarks in terms of both \\textit{Agreement} and\n\\textit{Consistency}, closely approaching the capabilities of GPT-4. We employ\nthe fine-grained correction capabilities induced by the evaluation model to\nrefine multiple model responses, and the results show that the refinement\nelevates the quality of responses, leading to an improvement of 1-2 points on\nthe MT-Bench. Our code is available at\nGithub\\footnote{\\url{https://github.com/dropreg/Fennec}}.",
+                "summary_detail": {
+                    "base": "",
+                    "language": null,
+                    "type": "text/plain",
+                    "value": "The rapid advancement of large language models has given rise to a plethora\nof applications across a myriad of real-world tasks, mainly centered on\naligning with human intent. However, the complexities inherent in human intent\nnecessitate a dependence on labor-intensive and time-consuming human\nevaluation. To alleviate this constraint, we delve into the paradigm of\nemploying open-source large language models as evaluators, aligning with the\nprevailing trend of utilizing GPT-4. Particularly, we present a step-by-step\nevaluation framework: \\textbf{Fennec}, capable of \\textbf{F}ine-grained\n\\textbf{E}valuatio\\textbf{N} and correctio\\textbf{N} \\textbf{E}xtended through\nbran\\textbf{C}hing and bridging. Specifically, the branching operation dissects\nthe evaluation task into various dimensions and granularities, thereby\nalleviating the challenges associated with evaluation. Concurrently, the\nbridging operation amalgamates diverse training datasets, augmenting the\nvariety of evaluation tasks. In experimental trials, our 7B model consistently\noutperforms open-source larger-scale evaluation models across various widely\nadopted benchmarks in terms of both \\textit{Agreement} and\n\\textit{Consistency}, closely approaching the capabilities of GPT-4. We employ\nthe fine-grained correction capabilities induced by the evaluation model to\nrefine multiple model responses, and the results show that the refinement\nelevates the quality of responses, leading to an improvement of 1-2 points on\nthe MT-Bench. Our code is available at\nGithub\\footnote{\\url{https://github.com/dropreg/Fennec}}."
+                },
+                "tags": [
+                    {
+                        "label": null,
+                        "scheme": "http://arxiv.org/schemas/atom",
+                        "term": "cs.CL"
+                    },
+                    {
+                        "label": null,
+                        "scheme": "http://arxiv.org/schemas/atom",
+                        "term": "cs.AI"
+                    }
+                ],
+                "title": "Fennec: Fine-grained Language Model Evaluation and Correction Extended\n  through Branching and Bridging",
+                "title_detail": {
+                    "base": "",
+                    "language": null,
+                    "type": "text/plain",
+                    "value": "Fennec: Fine-grained Language Model Evaluation and Correction Extended\n  through Branching and Bridging"
+                },
+                "updated": "2024-05-20T16:47:22Z",
+                "updated_parsed": [
+                    2024,
+                    5,
+                    20,
+                    16,
+                    47,
+                    22,
+                    0,
+                    141,
+                    0
+                ]
+            },
+            "authors": [
+                "Xiaobo Liang",
+                "Haoke Zhang",
+                "Helan hu",
+                "Juntao Li",
+                "Jun Xu",
+                "Min Zhang"
+            ],
+            "categories": [
+                "cs.CL",
+                "cs.AI"
+            ],
+            "comment": null,
+            "doi": null,
+            "entry_id": "http://arxiv.org/abs/2405.12163v1",
+            "journal_ref": null,
+            "links": [
+                "http://arxiv.org/abs/2405.12163v1",
+                "http://arxiv.org/pdf/2405.12163v1"
+            ],
+            "pdf_url": "http://arxiv.org/pdf/2405.12163v1",
+            "primary_category": "cs.CL",
+            "published": "2024-05-20 16:47:22+00:00",
+            "summary": "The rapid advancement of large language models has given rise to a plethora\nof applications across a myriad of real-world tasks, mainly centered on\naligning with human intent. However, the complexities inherent in human intent\nnecessitate a dependence on labor-intensive and time-consuming human\nevaluation. To alleviate this constraint, we delve into the paradigm of\nemploying open-source large language models as evaluators, aligning with the\nprevailing trend of utilizing GPT-4. Particularly, we present a step-by-step\nevaluation framework: \\textbf{Fennec}, capable of \\textbf{F}ine-grained\n\\textbf{E}valuatio\\textbf{N} and correctio\\textbf{N} \\textbf{E}xtended through\nbran\\textbf{C}hing and bridging. Specifically, the branching operation dissects\nthe evaluation task into various dimensions and granularities, thereby\nalleviating the challenges associated with evaluation. Concurrently, the\nbridging operation amalgamates diverse training datasets, augmenting the\nvariety of evaluation tasks. In experimental trials, our 7B model consistently\noutperforms open-source larger-scale evaluation models across various widely\nadopted benchmarks in terms of both \\textit{Agreement} and\n\\textit{Consistency}, closely approaching the capabilities of GPT-4. We employ\nthe fine-grained correction capabilities induced by the evaluation model to\nrefine multiple model responses, and the results show that the refinement\nelevates the quality of responses, leading to an improvement of 1-2 points on\nthe MT-Bench. Our code is available at\nGithub\\footnote{\\url{https://github.com/dropreg/Fennec}}.",
+            "title": "Fennec: Fine-grained Language Model Evaluation and Correction Extended through Branching and Bridging",
+            "updated": "2024-05-20 16:47:22+00:00"
+        },
+        "timestamp": "2024-05-21 15:53:31"
     }
 ]

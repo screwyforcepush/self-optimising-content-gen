@@ -1,5 +1,8 @@
 # Add your project dependencies here
 openai
-langgraph
-dspy
+dspy-ai
+langchain-core
+langchain_openai
 arxiv
+python-dotenv
+emoji

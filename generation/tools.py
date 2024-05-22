@@ -1,6 +1,4 @@
-from typing_extensions import Annotated
 import os
-import autogen
 import arxiv
 import json
 from typing import List
@@ -8,6 +6,9 @@ import emoji
 import requests
 from openai import OpenAI
 from dotenv import load_dotenv
+import time
+
+
 load_dotenv()
        
 script_dir = os.path.dirname(os.path.abspath(__file__))
@@ -90,13 +91,22 @@ def gen_img_save(prompt,title):
     # Define the prompt for the image generation
 
     # Generate the image using DALL-E 3
-    response = client.images.generate(
-        model="dall-e-3",
-        prompt=prompt,
-        size="1024x1024",
-        quality="hd",
-        n=1
-    )
+    for attempt in range(5):
+        try:
+            response = client.images.generate(
+                model="dall-e-3",
+                prompt=prompt,
+                size="1024x1024",
+                quality="hd",
+                n=1
+            )
+            break  # If the request was successful, break the loop
+        except Exception as e:
+            if 'content_policy_violation' in str(e):
+                print(f"Attempt {attempt+1} failed with a content policy violation. Retrying...")
+                time.sleep(5)  # Wait for 5 seconds before retrying
+            else:
+                raise
 
     # Check if 'data' is not empty and contains at least one image
     if response.data and isinstance(response.data, list):
@@ -128,11 +138,4 @@ class Tool:
 ALL_TOOLS = {
     "fetch_latest_ai_papers": Tool("fetch_latest_ai_papers", "Pull latest AI papers from arxiv.org.", fetch_latest_ai_papers),
 }
-
-def register_tool(executor: autogen.UserProxyAgent, assistant: autogen.AssistantAgent, tool_obj: Tool):
-    # Register the tool signature with the assistant agent.
-    assistant.register_for_llm(name=tool_obj.name, description=tool_obj.description)(tool_obj.function)
-
-    # Register the tool function with the user proxy agent.
-    executor.register_for_execution(name=tool_obj.name)(tool_obj.function)
 

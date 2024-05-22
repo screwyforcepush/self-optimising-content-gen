@@ -1217,5 +1217,167 @@
         },
         "share_urn": "urn:li:share:7198146712094334976",
         "timestamp": "2024-05-20 12:16:35"
+    },
+    {
+        "assessment_obj": {
+            "component_grade_arr": [
+                {
+                    "1. Hook → Grab attention": true
+                },
+                {
+                    "2. Re-hook → Add curiosity": true
+                },
+                {
+                    "3. Lead → Why it's important": false
+                },
+                {
+                    "4. The rule of three → Powerful": false
+                },
+                {
+                    "5. Proof → Expertise adds a layer of trust. The technical how.": false
+                },
+                {
+                    "6. Body → The answer to your hook. Include reference to the source research title.": false
+                },
+                {
+                    "7. Listicles → Descending or ascending": true
+                },
+                {
+                    "8. Power-ending → Summary for impact": false
+                },
+                {
+                    "9. CTA/CTE → Invite your reader to engage": true
+                },
+                {
+                    "10. Hashtags → 3 relevant hashtags for SEO": false
+                }
+            ],
+            "engaging": true,
+            "factually_relevant": true,
+            "formated": false,
+            "is_short_content": 1,
+            "no_blacklist": true,
+            "no_emojis": false,
+            "no_signature": true,
+            "reference": true
+        },
+        "assessment_score": 0.8,
+        "compressed_paper": "🧬The research paper presents a new, resolution-invariant Super-resolution (SR) method called a Hierarchical Neural Operator Transformer, which efficiently enhances resolutions in diverse datasets with complex challenges, through a learnable frequency-aware loss prior and a Galerkin-type self-attention mechanism.🧬",
+        "content": "Picture-perfect clarity or artfully abstract? High-Definition or Impressionism? With this innovative tech breakthrough, you choose the view. \n\nIntroducing the Hierarchical Neural Operator Transformer as presented in the latest research paper, with potential to redefine resolution and clarity.\n\nHere's how it can change the digital ad game:\n\n1️⃣ Tailored resolution for clear details regardless of the viewing distance.\n2️⃣ Dynamic adjustments to variations in light and time.\n3️⃣ Autonomous creation of context-aware, visually engaging ads.\n\nBut let's break away from the usual. In a twist, we propose a diversion from hyper-realism. Deliver impact through emotion, storyline, and narrative rather than precision.\n\nInstead of amplifying clarity, imagine utilizing this tech to emulate Monet in a digital landscape, casting a veil of impressionism over your content. \n\nThis isn't your run-of-the-mill upgrade - you'll be creating a digital narrative voyage where the lines between virtual and reality blur.\n\nThe question stands: Would you choose clarity or creativity for your digital advertising experience? Let's discuss where you stand. \n\n#NextGenAds #AdTech #ExperienceMatters",
+        "paper": {
+            "_raw": {
+                "arxiv_comment": "20 pages, 14 figures",
+                "arxiv_primary_category": {
+                    "scheme": "http://arxiv.org/schemas/atom",
+                    "term": "cs.CV"
+                },
+                "author": "Byung-Jun Yoon",
+                "author_detail": {
+                    "name": "Byung-Jun Yoon"
+                },
+                "authors": [
+                    {
+                        "name": "Xihaier Luo"
+                    },
+                    {
+                        "name": "Xiaoning Qian"
+                    },
+                    {
+                        "name": "Byung-Jun Yoon"
+                    }
+                ],
+                "guidislink": true,
+                "id": "http://arxiv.org/abs/2405.12202v1",
+                "link": "http://arxiv.org/abs/2405.12202v1",
+                "links": [
+                    {
+                        "href": "http://arxiv.org/abs/2405.12202v1",
+                        "rel": "alternate",
+                        "type": "text/html"
+                    },
+                    {
+                        "href": "http://arxiv.org/pdf/2405.12202v1",
+                        "rel": "related",
+                        "title": "pdf",
+                        "type": "application/pdf"
+                    }
+                ],
+                "published": "2024-05-20T17:39:29Z",
+                "published_parsed": [
+                    2024,
+                    5,
+                    20,
+                    17,
+                    39,
+                    29,
+                    0,
+                    141,
+                    0
+                ],
+                "summary": "In this work, we present an arbitrary-scale super-resolution (SR) method to\nenhance the resolution of scientific data, which often involves complex\nchallenges such as continuity, multi-scale physics, and the intricacies of\nhigh-frequency signals. Grounded in operator learning, the proposed method is\nresolution-invariant. The core of our model is a hierarchical neural operator\nthat leverages a Galerkin-type self-attention mechanism, enabling efficient\nlearning of mappings between function spaces. Sinc filters are used to\nfacilitate the information transfer across different levels in the hierarchy,\nthereby ensuring representation equivalence in the proposed neural operator.\nAdditionally, we introduce a learnable prior structure that is derived from the\nspectral resizing of the input data. This loss prior is model-agnostic and is\ndesigned to dynamically adjust the weighting of pixel contributions, thereby\nbalancing gradients effectively across the model. We conduct extensive\nexperiments on diverse datasets from different domains and demonstrate\nconsistent improvements compared to strong baselines, which consist of various\nstate-of-the-art SR methods.",
+                "summary_detail": {
+                    "base": "",
+                    "language": null,
+                    "type": "text/plain",
+                    "value": "In this work, we present an arbitrary-scale super-resolution (SR) method to\nenhance the resolution of scientific data, which often involves complex\nchallenges such as continuity, multi-scale physics, and the intricacies of\nhigh-frequency signals. Grounded in operator learning, the proposed method is\nresolution-invariant. The core of our model is a hierarchical neural operator\nthat leverages a Galerkin-type self-attention mechanism, enabling efficient\nlearning of mappings between function spaces. Sinc filters are used to\nfacilitate the information transfer across different levels in the hierarchy,\nthereby ensuring representation equivalence in the proposed neural operator.\nAdditionally, we introduce a learnable prior structure that is derived from the\nspectral resizing of the input data. This loss prior is model-agnostic and is\ndesigned to dynamically adjust the weighting of pixel contributions, thereby\nbalancing gradients effectively across the model. We conduct extensive\nexperiments on diverse datasets from different domains and demonstrate\nconsistent improvements compared to strong baselines, which consist of various\nstate-of-the-art SR methods."
+                },
+                "tags": [
+                    {
+                        "label": null,
+                        "scheme": "http://arxiv.org/schemas/atom",
+                        "term": "cs.CV"
+                    },
+                    {
+                        "label": null,
+                        "scheme": "http://arxiv.org/schemas/atom",
+                        "term": "cs.AI"
+                    }
+                ],
+                "title": "Hierarchical Neural Operator Transformer with Learnable Frequency-aware\n  Loss Prior for Arbitrary-scale Super-resolution",
+                "title_detail": {
+                    "base": "",
+                    "language": null,
+                    "type": "text/plain",
+                    "value": "Hierarchical Neural Operator Transformer with Learnable Frequency-aware\n  Loss Prior for Arbitrary-scale Super-resolution"
+                },
+                "updated": "2024-05-20T17:39:29Z",
+                "updated_parsed": [
+                    2024,
+                    5,
+                    20,
+                    17,
+                    39,
+                    29,
+                    0,
+                    141,
+                    0
+                ]
+            },
+            "authors": [
+                "Xihaier Luo",
+                "Xiaoning Qian",
+                "Byung-Jun Yoon"
+            ],
+            "categories": [
+                "cs.CV",
+                "cs.AI"
+            ],
+            "comment": "20 pages, 14 figures",
+            "doi": null,
+            "entry_id": "http://arxiv.org/abs/2405.12202v1",
+            "journal_ref": null,
+            "links": [
+                "http://arxiv.org/abs/2405.12202v1",
+                "http://arxiv.org/pdf/2405.12202v1"
+            ],
+            "pdf_url": "http://arxiv.org/pdf/2405.12202v1",
+            "primary_category": "cs.CV",
+            "published": "2024-05-20 17:39:29+00:00",
+            "summary": "In this work, we present an arbitrary-scale super-resolution (SR) method to\nenhance the resolution of scientific data, which often involves complex\nchallenges such as continuity, multi-scale physics, and the intricacies of\nhigh-frequency signals. Grounded in operator learning, the proposed method is\nresolution-invariant. The core of our model is a hierarchical neural operator\nthat leverages a Galerkin-type self-attention mechanism, enabling efficient\nlearning of mappings between function spaces. Sinc filters are used to\nfacilitate the information transfer across different levels in the hierarchy,\nthereby ensuring representation equivalence in the proposed neural operator.\nAdditionally, we introduce a learnable prior structure that is derived from the\nspectral resizing of the input data. This loss prior is model-agnostic and is\ndesigned to dynamically adjust the weighting of pixel contributions, thereby\nbalancing gradients effectively across the model. We conduct extensive\nexperiments on diverse datasets from different domains and demonstrate\nconsistent improvements compared to strong baselines, which consist of various\nstate-of-the-art SR methods.",
+            "title": "Hierarchical Neural Operator Transformer with Learnable Frequency-aware Loss Prior for Arbitrary-scale Super-resolution",
+            "updated": "2024-05-20 17:39:29+00:00"
+        },
+        "share_urn": "urn:li:share:7198569614547574785",
+        "timestamp": "2024-05-21 15:53:31"
     }
 ]
