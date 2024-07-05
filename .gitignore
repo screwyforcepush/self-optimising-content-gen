@@ -2,5 +2,5 @@
 .cache
 */*.log
 *.log
-generation/images/*
-generation/system_messages.py
+/generation/images/*
+/generation/system_messages.py
