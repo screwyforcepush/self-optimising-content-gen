@@ -8,7 +8,7 @@ from operator import itemgetter
 from dotenv import load_dotenv
 from system_messages import system_messages
 from tools import fetch_latest_ai_papers
-from langchain_core.globals import set_verbose
+from langchain_core.globals import set_debug
 from assessment import content_metric, blacklist_words
 from linkedin_integration import post_image_and_text, post_comment_on_linkedin
 from tools import gen_img_save, fetch_latest_ai_papers, save_workflow_output, mark_paper_as_consumed
@@ -18,7 +18,7 @@ from datetime import datetime
 from typing import List
 
 load_dotenv(override=True)
-set_verbose(True)
+set_debug(True)
 
 
 gpt4 = ChatOpenAI(model="gpt-4", temperature=1)
@@ -50,7 +50,7 @@ def parse_titles_for_summary(titles_str, latest_papers) -> List[dict]:
 
 shortlist_agent = (
     ChatPromptTemplate.from_messages(
-        [extractor,
+        [ai_expert,
             ("human", "Shortlist 5 reasearch papers that seem most insteresting, GenAI/LLM relevent, and applicable to digital tech.\n\nTitles: [\"{titles}\"]"),
             
         ]
@@ -61,8 +61,8 @@ shortlist_agent = (
 )
 extract_titles_agent = (
     ChatPromptTemplate.from_messages(
-        [ai_expert,
-            ("human", "Extract the paper titles from Context into an string list.\nResponse Format: List[str]. Start response with [ and end with ]\n\nContext:{titles_shortlist}"),
+        [extractor,
+            ("human", "Extract the paper titles from Context into an string list.\nResponse Format: List[str].\nYou response must only contain the array of titles, ie. start with [ and end with ]\n\nContext:{titles_shortlist}"),
             
         ]
     )

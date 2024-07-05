@@ -87,7 +87,7 @@ class Assess_Structure(dspy.Signature):
 
 
 class Assess(dspy.Signature):
-    """Assess the quality of a tweet along the specified dimension."""
+    """Assess the quality of a social post along the specified dimension."""
 
     assessed_text = dspy.InputField()
     assessment_question = dspy.InputField()

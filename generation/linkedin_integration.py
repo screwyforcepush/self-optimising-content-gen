@@ -2,6 +2,7 @@ import requests
 from dotenv import load_dotenv
 import os
 import re
+import time
 
 # Load the .env file
 load_dotenv()
@@ -50,8 +51,16 @@ def post_image_and_text(file_path: str, text_content: str):
 
     # Optional: Fetch the uploaded image details for verification or further use
     get_image_url = f"https://api.linkedin.com/rest/images/{image_urn}"
-    get_image_response = requests.get(get_image_url, headers=headers)
-    print(get_image_response.json())  # Display the image details for confirmation
+
+    for _ in range(10):
+        get_image_response = requests.get(get_image_url, headers=headers)
+        response_json = get_image_response.json()
+        print(response_json)  # Display the image details for confirmation
+
+        if response_json.get('status') == 'PROCESSING':
+            time.sleep(5)  # Wait for 5 seconds before the next attempt
+        else:
+            break  # If the status is 'PROCESSING', break the loop
 
     parsed = re.sub(r'[\(\)*\[\]\{\}<>@|~_]', r'\\\g<0>', text_content)
 
